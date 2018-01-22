@@ -3757,22 +3757,29 @@
 
      }
      #resume > div {
-          margin-top:-150px;
+          margin-top:100px;
+          margin-bottom:100px;
      }
      .row#resume ul li {
           margin-top:-150px;
      }
-     #resume > div > div:nth-child(2) > div > div.col-lg-6.col-md-6.col-sm-6.col-xs-12.timeline-left > ul > ul > li:nth-child(2) {
-          margin-top:-150px;
-     }
+#resume > div > div:nth-child(2) > div > div.col-lg-6.col-md-6.col-sm-6.col-xs-12.timeline-left > ul > li {
+          margin-top:20 !important;
+}
      .timeline ul li:first-child {
-          margin-top:20px;
+          margin-top:20px !important;
      }
           .timeline ul li:nth-child(2) {
-          margin-top:20px;
+          margin-top:20px !important;
      }
           .timeline ul li:nth-child(3) {
-          margin-top:20px;
+          margin-top:20px !important;
      }
- 
+     .timeline ul li:nth-child(4) {
+          margin-top:-20 !important;
+     }
+     .timeline ul li:last-child {
+          margin-top:-20px !important;
+     }
+     
 }
