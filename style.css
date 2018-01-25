@@ -204,9 +204,10 @@
      float: none;
      border: 2px solid #d7d7d7;
      border-radius: 50%;
-     width: 180px;
-     height: 180px;
+     width: 222px;
+     height: 222px;
      overflow: hidden;
+     z-index:999;
 }
  .main-content h2 {
      font-family: "Poiret One", sans-serif;
@@ -427,7 +428,7 @@
      border-color: #2cc16b;
 }
  li#platform-link a.nav-current h3, #platform-link a.nav-current i {
-     color: #2cc16b;
+     color: #5172DD;
 }
  li#contact-link a.nav-current {
      border-width: 2px;
@@ -1253,7 +1254,7 @@
 }
 /** * ---------------------------------------------------------------------------------------- * 06. platform * ---------------------------------------------------------------------------------------- */
  #platform, #platform .cat-pages-title h2 {
-     background-color: #2cc16b;
+     background-color: #5172DD;
 }
  .platform {
      display: block;
@@ -3297,6 +3298,27 @@
          margin: 0;
          overflow-y: auto !important;
     }
+         .row#resume ul li {
+          margin-top:-150px;
+     }
+     #resume > div > div:nth-child(2) > div > div.col-lg-6.col-md-6.col-sm-6.col-xs-12.timeline-left > ul > li {
+          margin-top:20 !important;
+}
+     .timeline ul li:first-child {
+          margin-top:20px !important;
+     }
+     .timeline ul li:nth-child(2) {
+          margin-top:20px !important;
+     }
+     .timeline ul li:nth-child(3) {
+          margin-top:20px !important;
+     }
+     .timeline ul li:nth-child(4) {
+          margin-top:-20 !important;
+     }
+     .timeline ul li:last-child {
+          margin-top:-20px !important;
+     }
 }
  @media only screen and (min-width: 370px) and (max-width: 400px) {
           #content-wrap, .cat-pages {
@@ -3719,14 +3741,42 @@
           height:303px;
           width:202px;
      }
-            #fam4 > img {
+     #fam4 > img {
           margin-left:-40px;
 
      }
+     #resume > div {
+          margin-top:100px;
+          margin-bottom:100px;
+     }
+     .row#resume ul li {
+          margin-top:-150px;
+     }
+     #resume > div > div:nth-child(2) > div > div.col-lg-6.col-md-6.col-sm-6.col-xs-12.timeline-left > ul > li {
+          margin-top:20 !important;
+}
+     .timeline ul li:first-child {
+          margin-top:20px !important;
+     }
+     .timeline ul li:nth-child(2) {
+          margin-top:20px !important;
+     }
+     .timeline ul li:nth-child(3) {
+          margin-top:20px !important;
+     }
+     .timeline ul li:nth-child(4) {
+          margin-top:-20 !important;
+     }
+     .timeline ul li:last-child {
+          margin-top:-20px !important;
+     }
+     
+}
 }
 
 
-      @media only screen and (min-width: 414px) and (max-width: 500px) {
+
+      @media only screen and (min-width: 412px) and (max-width: 500px) {
      .skill-item {
          padding-left: 17%;
     }
@@ -3781,5 +3831,5 @@
      .timeline ul li:last-child {
           margin-top:-20px !important;
      }
-     
+
 }
