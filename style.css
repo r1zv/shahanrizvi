@@ -2463,7 +2463,26 @@ animation-delay: 1.6s;
 
 }
 
- @media only screen and (min-width: 1442px) and (max-width: 1610px) {
+ @media only screen and (min-width: 1400px) and (max-width: 1610px) {
+
+     .platform ul li .platform-image {
+         margin-left: 40px;
+    } 
+       
+     div#fam1.platform-image > img {
+          margin-left: 40px;
+     }
+     div#fam3.platform-image > img {
+          margin-left: 75px !important;
+     } 
+     div#fam4.platform-image > img {
+          margin-left: 40px;
+     }  
+
+     .platform ul li .platform-image {
+         margin-left: 25px !important;
+    } 
+
      .iconbox ul li i {
          height: 110px;
     }
@@ -2489,8 +2508,9 @@ animation-delay: 1.6s;
      .quotes ul:before {
          padding-left: 12px;
     }
+    }
 }
- @media only screen and (min-width: 1202px) and (max-width: 1441px) {
+ @media only screen and (min-width: 1202px) and (max-width: 1399px) {
      .main-content p {
          font-size: 16px;
          width: 70%;
@@ -3408,7 +3428,7 @@ animation-delay: 1.6s;
           margin-top:-20px !important;
      }
 }
- @media only screen and (min-width: 370px) and (max-width: 400px) {
+ @media only screen and (min-width: 370px) and (max-width: 395px) {
           #content-wrap, .cat-pages {
          width: 100%;
          left: 0px;
@@ -3864,7 +3884,7 @@ animation-delay: 1.6s;
 
 
 
-      @media only screen and (min-width: 412px) and (max-width: 500px) {
+      @media only screen and (min-width: 410px) and (max-width: 500px) {
      .skill-item {
          padding-left: 17%;
     }
@@ -3883,15 +3903,15 @@ animation-delay: 1.6s;
           margin-top:100px;
      } 
           #fam1 > img {
-          margin-left: -40px;
+          margin-left: -30px !important;
      }
        #fam3 > img {
-          margin-left:-30px;
+          margin-left:-60px;
           height:303px;
           width:202px;
      }
             #fam4 > img {
-          margin-left:-40px;
+          margin-left:-60px;
 
      }
      #resume > div {
