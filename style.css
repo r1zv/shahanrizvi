@@ -169,6 +169,8 @@
      left:0;
      background:rgba(255, 255, 255, .2);
 }
+
+
 /* RIGHT CONTENT */
  #content-wrap {
      display: block;
@@ -805,7 +807,7 @@
 }
 /** * ---------------------------------------------------------------------------------------- * 04. RESUME * ---------------------------------------------------------------------------------------- */
  #resume, #resume .cat-pages-title h2 {
-     background-color: #d7af0d;
+     background-color: #5172DD !important;
 }
  .timeline {
      display: block;
@@ -1001,7 +1003,7 @@
 }
 /** * ---------------------------------------------------------------------------------------- * 05. PORTFOLIO * ---------------------------------------------------------------------------------------- */
  #portfolio, #portfolio .cat-pages-title h2 {
-     background-color: #3498db;
+     background-color: #f66152 !important;
 }
  .portfolio-fliter {
      display: block;
@@ -1261,6 +1263,7 @@
      position: relative;
      margin: 0 auto;
      padding: 0;
+
      float: none;
 }
  .platform ul {
@@ -1564,7 +1567,7 @@
      float: left;
 }
  #wheretovote, #wheretovote .cat-pages-title h2 {
-     background-color: #2cc16b;
+     background-color: #f66152;
 }
  .wheretovote {
      display: block;
@@ -2134,7 +2137,7 @@
 }
 /** * ---------------------------------------------------------------------------------------- * 07. CONTACT * ---------------------------------------------------------------------------------------- */
  #contact, #contact .cat-pages-title h2 {
-     background-color: #424242;
+     background-color: #5172DD !important;
 }
  #contact {
      display: block;
@@ -2308,9 +2311,6 @@
 }
  
  #donate-link > a {
-background-color:#5172DD;
-text-decoration-color: white;
-
 
  }
 .fade-in.one {
@@ -2446,6 +2446,23 @@ animation-delay: 1.6s;
      font-size: 20px;
      padding-right: 8px;
 }
+ @media only screen and (min-width: 1798px) and (max-width: 2000px) {
+     .platform ul li .platform-image {
+         margin-left: 95px;
+    } 
+       
+     div#fam1.platform-image > img {
+          margin-left: 95px;
+     }
+     div#fam3.platform-image > img {
+          margin-left: 130px !important;
+     } 
+     div#fam4.platform-image > img {
+          margin-left: 95px;
+     }    
+
+}
+
  @media only screen and (min-width: 1442px) and (max-width: 1610px) {
      .iconbox ul li i {
          height: 110px;
