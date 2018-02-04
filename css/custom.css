@@ -48,21 +48,21 @@ li#resume-link a.nav-current h3,
 }
 /**** PORTFOLIO ****/
 li#portfolio-link a.nav-current {
-  border-color: #3498db;
+  border-color: #f66152;
 }
 li#portfolio-link a.nav-current h3,
 #portfolio-link a.nav-current i {
-  color: #3498db;
+  color: #f66152;
 }
 #portfolio,
 #portfolio .cat-pages-title h2 {
-  background-color: #3498db;
+  background-color: #f66152;
 }
 .quotes ul {
   border-color: #a0cfee;
 }
 .quotes ul:before {
-  background-color: #3498db;
+  background-color: #f66152;
 }
 ol.bjqs-markers li a {
   background-color: #a0cfee;
@@ -71,10 +71,10 @@ ol.bjqs-markers li.active-marker {
   border-color: #a0cfee;
 }
 .single-portfolio-page .menu a:hover {
-  color: #3498db;
+  color: #f66152;
 }
 .single-portfolio-page .sidebar a:hover {
-  color: #3498db;
+  color: #f66152;
 }
 /**** BLOG ****/
 li#blog-link a.nav-current {
@@ -100,19 +100,69 @@ li#blog-link a.nav-current h3,
 }
 /**** CONTACT ****/
 li#contact-link a.nav-current {
-  border-color: #424242;
+  border-color: #3B51CE;
 }
 li#contact-link a.nav-current h3,
 #contact-link a.nav-current i {
-  color: #424242;
+  color: #3B51CE;
 }
 #contact,
 #contact .cat-pages-title h2 {
-  background-color: #424242;
+  background-color: #3B51CE;
 }
 .single-contact-page .menu a:hover {
-  color: #424242;
+  color: #3B51CE;
 }
 .single-contact-page .sidebar a:hover {
-  color: #424242;
+  color: #3B51CE;
 }
+/**** PLATFORM ****/
+li#platform-link a.nav-current {
+  border-color: #f66152;
+}
+li#platform-link a.nav-current h3,
+li#platform-link a.nav-current i {
+  color: #f66152;
+}
+#platform,
+#platform .cat-pages-title h2 {
+  background-color: #f66152;
+}
+.single-platform-page .menu a:hover {
+  color: #f66152;
+}
+.single-platform-page .sidebar a:hover {
+  color: #f66152;
+}
+      @media only screen and (min-width: 405px) and (max-width: 414px) {
+
+     #platform > div > div:nth-child(2) > div > div > ul > li > div {
+          left:85px !important;
+          margin-bottom:20px;
+     }
+     #fam1 {
+        height:238.338px;
+        margin-bottom:20px;
+
+     }
+          #fam1 > img {
+          margin-right: 40px;
+          margin-bottom: 20px;
+          float:right;
+     }
+
+     #fam3 > img {
+          margin-right: 5px;
+          margin-bottom: 20px;
+          float:right;
+
+     }
+     #fam4 > img {
+          margin-bottom: 20px;
+          float:right;
+          margin-right:20px;
+
+     }
+   }
+
+   

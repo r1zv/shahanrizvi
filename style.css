@@ -2350,7 +2350,17 @@ animation-delay: 1.6s;
 -webkit-animation-delay: 1.6s;
 -moz-animation-delay: 1.6s;
 animation-delay: 1.6s;
+}
+.fade-in.eight {
+-webkit-animation-delay: 0.4s;
+-moz-animation-delay: 0.4s;
+animation-delay: 0.4s;
 } 
+.fade-in.nine {
+-webkit-animation-delay: 0.6s;
+-moz-animation-delay: 0.6s;
+animation-delay: 0.6s;
+}  
 /*---make a basic box ---*/
 
  
@@ -2448,7 +2458,8 @@ animation-delay: 1.6s;
 }
  @media only screen and (min-width: 1798px) and (max-width: 2000px) {
      .platform ul li .platform-image {
-         margin-left: 95px;
+         margin-left: 250px;
+         margin-bottom:20px;
     } 
        
      div#fam1.platform-image > img {
@@ -2460,7 +2471,9 @@ animation-delay: 1.6s;
      div#fam4.platform-image > img {
           margin-left: 95px;
      }    
-
+     #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
+          left:224px;
+     }
 }
 
  @media only screen and (min-width: 1400px) and (max-width: 1610px) {
@@ -2807,6 +2820,9 @@ animation-delay: 1.6s;
          letter-spacing: 0.02em;
          line-height: 16px;
     }
+         #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
+         left:162px;
+     }
      .quotes {
          margin-bottom: 24px;
     }
@@ -2822,7 +2838,8 @@ animation-delay: 1.6s;
      .platform ul li .platform-image {
          width: 146px;
          height: 130px;
-         margin-bottom: 8px;
+         margin-bottom: 20px;
+         margin-left:125px;
     }
      .platform ul li img {
          width: 144px;
@@ -2987,11 +3004,29 @@ animation-delay: 1.6s;
          padding-left: 12px;
     }
      .platform ul li .platform-image {
-         margin-bottom: 14px;
+         margin-bottom: 20px;
+         left:183px;
     }
      .platform ul li:last-child span {
          margin-bottom: 24px;
     }
+
+          #fam1 > img {
+          margin-left: 75px;
+          margin-bottom: 20px;
+     }
+
+     #fam3 > img {
+          margin-left: 115px !important;
+          margin-bottom: 20px;
+          margin-top:40px !important;
+
+     }
+     #fam4 > img {
+          margin-bottom: 20px;
+          margin-left: 80px !important;
+
+     }
      .ajax-popup {
          margin-top: 58px;
          padding-left: 0;
@@ -3194,7 +3229,7 @@ animation-delay: 1.6s;
          margin-right: -28px;
     }
      .portfolio-items ul li {
-         width: 50%;
+         width: 100%;
     }
      .portfolio-description h3 {
          font-size: 13px;
@@ -3224,11 +3259,12 @@ animation-delay: 1.6s;
          height: 130px;
          display: block;
          float: none;
-         margin: 20 -55px 0px;
+         margin: 20 0px 0px;
     }
      .platform ul li img {
          width: 144px;
          height: 128px;
+         margin-bottom:20px;
     }
      .platform ul li h2 {
          display: block;
@@ -3429,7 +3465,10 @@ animation-delay: 1.6s;
      }
 }
  @media only screen and (min-width: 370px) and (max-width: 395px) {
-          #content-wrap, .cat-pages {
+     #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
+          left:88px;
+     }
+     #content-wrap, .cat-pages {
          width: 100%;
          left: 0px;
     }
@@ -3829,7 +3868,7 @@ animation-delay: 1.6s;
          height: 130px;
          display: block;
          float: none;
-         margin: 40px -70px 0px;
+         margin: 20px 70px 20px;
           }
      .contet-wrap section {
           height:100px;
@@ -3884,16 +3923,26 @@ animation-delay: 1.6s;
 
 
 
-      @media only screen and (min-width: 410px) and (max-width: 500px) {
+      @media only screen and (min-width: 405px) and (max-width: 413px) {
+     #platform > div > div:nth-child(2) > div > div > ul > li > div {
+          left:85px !important;
+     }
+
+     #platform > div > div:nth-child(2) > div > div > ul > li > div > img {
+          float:right;
+     }
+     #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
+         left:88px;
+     }
      .skill-item {
          padding-left: 17%;
     }
       .platform ul li .platform-image {
-         width: 146px;
-         height: 130px;
-         display: block;
-         float: none;
-         margin: 20 -55px 0px;
+         width: 146px !important;
+         height: 130px !important;
+         display: block !important;
+         float: none !important;
+         margin: 20 -55px 0px !important;
     }
          .contet-wrap section {
           height:100px;
@@ -3940,4 +3989,29 @@ animation-delay: 1.6s;
           margin-top:-20px !important;
      }
 
+}
+ @media only screen and (min-width: 355px) and (max-width: 365px) {
+     .platform ul li .platform-image {
+          left: 60px !important;
+          margin-bottom:20px;
+     }
+     #fam1 > img {
+          float:right;
+          margin-right: 18px;
+          margin-bottom: 20px;
+     }
+
+     #fam3 > img {
+          float:right;
+          margin-right: -15px;
+          margin-bottom: 20px;
+
+     }
+     #fam4 > img {
+          float:right;
+          margin-bottom: 20px;
+
+     }
+
+     }
 }
