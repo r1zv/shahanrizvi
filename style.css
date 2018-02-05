@@ -2476,10 +2476,13 @@ animation-delay: 0.6s;
      }
 }
 
- @media only screen and (min-width: 1400px) and (max-width: 1610px) {
-
+ @media only screen and (min-width: 1400px) and (max-width: 1500px) {
+     #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
+          left:170px;
+     }
      .platform ul li .platform-image {
-         margin-left: 40px;
+         margin-left: 165px;
+         margin-bottom: 20px;
     } 
        
      div#fam1.platform-image > img {
@@ -2491,10 +2494,6 @@ animation-delay: 0.6s;
      div#fam4.platform-image > img {
           margin-left: 40px;
      }  
-
-     .platform ul li .platform-image {
-         margin-left: 25px !important;
-    } 
 
      .iconbox ul li i {
          height: 110px;
@@ -3465,6 +3464,14 @@ animation-delay: 0.6s;
      }
 }
  @media only screen and (min-width: 370px) and (max-width: 395px) {
+#resume > div > div:nth-child(3) > div > div > div:nth-child(2) {
+     margin-left:-25px;
+
+}
+#resume > div > div:nth-child(3) > div > div > div:nth-child(4) {
+     margin-left:-25px;
+}
+
      #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
           left:88px;
      }
@@ -3874,7 +3881,7 @@ animation-delay: 0.6s;
           height:100px;
      } 
           #content-wrap > div {
-          margin-top:110px;
+          padding-top:100px;
           margin-bottom:70px;
      }
      #about > div {
