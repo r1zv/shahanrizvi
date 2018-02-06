@@ -32,18 +32,18 @@
 }
  @-webkit-keyframes fadeOut {
      0% {
-        opacity: 1;
+         opacity: 1;
     }
      100% {
-        opacity: 0;
+         opacity: 0;
     }
 }
  @keyframes fadeOut {
      0% {
-        opacity: 1;
+         opacity: 1;
     }
      100% {
-        opacity: 0;
+         opacity: 0;
     }
 }
  .fadeOut {
@@ -169,8 +169,6 @@
      left:0;
      background:rgba(255, 255, 255, .2);
 }
-
-
 /* RIGHT CONTENT */
  #content-wrap {
      display: block;
@@ -759,7 +757,6 @@
  .iconbox ul li:hover i:after {
      transform: rotate(135deg);
      -webkit-transform: rotate(135deg);
-
 }
  .iconbox ul li.iconbox-right:hover i:after {
      transform: rotate(-45deg);
@@ -907,7 +904,8 @@
      border-color: #fff;
 }
  .timeline ul li span.changed:after {
-    /* background-color: #fff;*/
+    /* background-color: #fff;
+    */
 }
  .timeline-left ul li span:before {
      right: -27px;
@@ -1226,7 +1224,7 @@
      color: #fff;
 }
  .owl-controls {
-    list-style: none;
+     list-style: none;
      position: absolute;
      bottom: -10px;
      left: 0;
@@ -1236,14 +1234,14 @@
      text-align: center;
 }
  .owl-page {
-    display:inline-block;
+     display:inline-block;
      list-style: none;
      float: none;
      margin: 0 4px;
      padding: 0;
 }
  .owl-page span {
-    content: "";
+     content: "";
      display:block;
      width: 10px;
      height: 10px;
@@ -1265,7 +1263,6 @@
      position: relative;
      margin: 0 auto;
      padding: 0;
-
      float: none;
 }
  .platform ul {
@@ -2291,10 +2288,6 @@
      -o-transition: all .3s ease;
      transition: all .3s ease;
 }
- 
- 
-
-
 /** * ---------------------------------------------------------------------------------------- * 08. RESPONSIVE * ---------------------------------------------------------------------------------------- */
  #responsive-menu {
      display: none;
@@ -2388,41 +2381,37 @@
      .platform ul li .platform-image {
          margin-left: 250px;
          margin-bottom:20px;
-    } 
-       
+    }
      div#fam1.platform-image > img {
-          margin-left: 95px;
-     }
+         margin-left: 95px;
+    }
      div#fam3.platform-image > img {
-          margin-left: 130px !important;
-     } 
+         margin-left: 130px !important;
+    }
      div#fam4.platform-image > img {
-          margin-left: 95px;
-     }    
+         margin-left: 95px;
+    }
      #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
-          left:224px;
-     }
+         left:224px;
+    }
 }
-
  @media only screen and (min-width: 1400px) and (max-width: 1500px) {
      #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
-          left:170px;
-     }
+         left:170px;
+    }
      .platform ul li .platform-image {
          margin-left: 165px;
          margin-bottom: 20px;
-    } 
-       
+    }
      div#fam1.platform-image > img {
-          margin-left: 40px;
-     }
+         margin-left: 40px;
+    }
      div#fam3.platform-image > img {
-          margin-left: 75px !important;
-     } 
+         margin-left: 75px !important;
+    }
      div#fam4.platform-image > img {
-          margin-left: 40px;
-     }  
-
+         margin-left: 40px;
+    }
      .iconbox ul li i {
          height: 110px;
     }
@@ -2448,1536 +2437,1441 @@
      .quotes ul:before {
          padding-left: 12px;
     }
-    }
+}undefined}undefined @media only screen and (min-width: 1202px) and (max-width: 1399px) {
+ .main-content p {
+     font-size: 16px;
+     width: 70%;
 }
- @media only screen and (min-width: 1202px) and (max-width: 1399px) {
-     .main-content p {
-         font-size: 16px;
-         width: 70%;
-    }
-     .navigations ul li a {
-         width: 60%;
-    }
-     .navigations ul li a h3 {
-         font-size: 18px;
-         padding-top: 14px;
-    }
-     .navigations ul li a:hover h3 {
-         padding-top: 13px;
-    }
-     .cat-pages-title h2 {
-         font-size: 36px;
-    }
-     .about-description p {
-         font-size: 15px;
-         line-height: 23px;
-    }
-     .iconbox ul li i, .iconbox ul li.iconbox-right i {
-         height: 110px;
-         width: 75px;
-         padding: 23px;
-         margin-top: 24px;
-    }
-     .iconbox ul li i:after {
-         width: 75px;
-         height: 75px;
-    }
-     .iconbox ul li:last-child:after {
-         margin: 0 auto .5em;
-         padding: 0 0 3.5em;
-    }
-     .iconbox ul li h3 {
-         font-size: 18px;
-    }
-     .iconbox ul li p {
-         font-size: 14px;
-         line-height: 21px;
-    }
-     .btn span {
-         font-size: 14px;
-    }
-     .timeline i {
-         font-size: 27px;
-    }
-     .timeline h3 {
-         font-size: 18px;
-    }
-     .skill-item {
-         padding-left: 3%;
-         margin-bottom: 36px;
-    }
-     .skill-item:before {
-         margin: 18px auto 22px;
-    }
-     .skill-item input[type="text"] {
-         font-size: 23px;
-         width: 60px;
-    }
-     .skill-item h5 {
-         font-size: 15px;
-    }
-     .skills-title h3 {
-         font-size: 18px;
-    }
-     .portfolio-fliter ul li {
-         font-size: 14px;
-    }
-     .portfolio-description h3 {
-         font-size: 13px;
-         letter-spacing: 0.05em;
-         line-height: 19px;
-    }
-     .portfolio-description p {
-         font-size: 11px;
-         letter-spacing: 0.01em;
-         line-height: 16px;
-    }
-     .quotes ul:before {
-         font-size: 16px;
-    }
-     .quotes ul li {
-         font-size: 13px;
-         line-height: 19px;
-         padding: 0 8px;
-    }
-     .quotes ul:before {
-         padding-left: 12px;
-    }
-     .platform ul li h2 {
-         font-size: 18px;
-         margin-bottom: 4px;
-    }
-     .platform ul li p {
-         font-size: 14px;
-         line-height: 22px;
-    }
-     .platform ul li:last-child span {
-         margin-bottom: 36px;
-    }
-     .platform ul li .platform-image {
-         margin-bottom: 8px;
-    }
-     .platform ul li span {
-         font-size: 13px;
-    }
-     .wheretovote ul li h2 {
-         font-size: 18px;
-         margin-bottom: 4px;
-    }
-     .wheretovote ul li p {
-         font-size: 14px;
-         line-height: 22px;
-    }
-     .wheretovote ul li:last-child span {
-         margin-bottom: 36px;
-    }
-     .wheretovote ul li .platform-image {
-         margin-bottom: 8px;
-    }
-     .wheretovote ul li span {
-         font-size: 13px;
-    }
-     .contact-info {
-         padding-right: 0;
-    }
-     .contact-section p, .contact-section ul li p {
-         font-size: 10.5px;
-    }
-     .contact-form form input[type="text"], .contact-form form input[type="email"] {
-         font-size: 13px;
-         padding-top: 1px;
-    }
-     .contact-form form textarea {
-         font-size: 13px;
-    }
-     .contact-form form input[type="submit"] {
-         font-size: 11px;
-         padding: 4px 22px;
-    }
-     ::-webkit-input-placeholder {
-         text-transform: uppercase;
-         letter-spacing: 3px;
-         font-size: 11px;
-    }
-     ::-moz-placeholder {
-         text-transform: uppercase;
-         letter-spacing: 3px;
-         font-size: 11px;
-    }
-    /* firefox 19+ */
-     :-ms-input-placeholder {
-         text-transform: uppercase;
-         letter-spacing: 3px;
-         font-size: 11px;
-    }
-    /* ie */
-     input:-moz-placeholder {
-         text-transform: uppercase;
-         letter-spacing: 3px;
-         font-size: 11px;
-    }
+ .navigations ul li a {
+     width: 60%;
 }
- @media only screen and (min-width: 1202px) and (max-width: 1367px) {
-     .cat-pages-title h2 {
-         font-size: 34px;
-    }
-     .quotes {
-         margin-bottom: 24px;
-    }
-     .quotes ul {
-         min-height: 180px;
-    }
-     .quotes ul:before {
-         padding-left: 12px;
-    }
-     .platform ul li .platform-image {
-         margin-bottom: 30px;
-    }
-     .wheretovote ul li .platform-image {
-         margin-bottom: 30px;
-    }
-     .contact-form form input[type="submit"] {
-         margin-bottom: 24px;
-    }
-     .ajax-popup {
-         padding-left: 0;
-         padding-right: 0;
-    }
+ .navigations ul li a h3 {
+     font-size: 18px;
+     padding-top: 14px;
 }
- @media only screen and (min-width: 1202px) and (max-width: 1281px) {
-     .platform ul li .platform-image {
-         margin-bottom: 8px;
-    }
-     .wheretovote ul li .platform-image {
-         margin-bottom: 8px;
-    }
+ .navigations ul li a:hover h3 {
+     padding-top: 13px;
 }
- @media only screen and (min-width: 993px) and (max-width: 1198px) {
-     .main-content h2 {
-         font-size: 36px;
-    }
-     .main-content p {
-         width: 70%;
-         font-size: 16px;
-    }
-     .navigations ul li a {
-         width: 58%;
-    }
-     .navigations ul li a h3 {
-         font-size: 18px;
-         padding-top: 14px;
-    }
-     .navigations ul li a:hover h3 {
-         padding-top: 13px;
-    }
-     .navigations ul li a i {
-         font-size: 80px;
-         margin-top: -10px;
-    }
-     .nav-left {
-         left: -36px;
-    }
-     .nav-right {
-         right: -36px;
-    }
-     .cat-pages-title h2 {
-         font-size: 32px;
-    }
-     .title-seprator {
-         width: 80%;
-    }
-     .about-description p {
-         font-size: 15px;
-    }
-     .iconbox ul li i, .iconbox ul li.iconbox-right i {
-         height: 110px;
-         margin-top: 36px;
-    }
-     .iconbox ul li h3 {
-         font-size: 19px;
-    }
-     .iconbox ul li p {
-         font-size: 15px;
-    }
-     .btn span {
-         font-size: 14px;
-    }
-     .timeline i {
-         font-size: 30px;
-    }
-     .timeline h3 {
-         font-size: 20px;
-    }
-     .timeline ul li span {
-         font-size: 12px;
-    }
-     .timeline ul li span:before, .timeline ul li span:after {
-         top: 0px;
-    }
-     .timeline ul li h4 {
-         font-size: 14px;
-    }
-     .timeline ul li p {
-         font-size: 13px;
-         letter-spacing: 0.01em;
-         margin-top: 4px;
-    }
-     .timeline-right ul li p {
-         margin-top: 4px;
-    }
-     .skill-item {
-         padding-left: 12%;
-    }
-     .skill-item input[type="text"] {
-         font-size: 25px;
-    }
-     .skill-item h5 {
-         font-size: 15px;
-    }
-     .portfolio-fliter ul li {
-         font-size: 14px;
-    }
-     .portfolio-description h3 {
-         font-size: 13px;
-         letter-spacing: 0.06em;
-         line-height: 19px;
-    }
-     .portfolio-description p {
-         font-size: 11px;
-         letter-spacing: 0.02em;
-         line-height: 16px;
-    }
-         #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
-         left:162px;
-     }
-     .quotes {
-         margin-bottom: 24px;
-    }
-     .quotes ul {
-         min-height: 200px;
-    }
-     .quotes ul li {
-         font-size: 13px;
-    }
-     .quotes ul:before {
-         padding-left: 12px;
-    }
-     .platform ul li .platform-image {
-         width: 146px;
-         height: 130px;
-         margin-bottom: 20px;
-         margin-left:125px;
-    }
-     .platform ul li img {
-         width: 144px;
-         height: 128px;
-    }
-     .platform ul li h2 {
-         font-size: 18px;
-         margin-bottom: 4px;
-    }
-     .platform ul li p {
-         font-size: 14px;
-    }
-     .platform ul li span {
-         font-size: 13px;
-         letter-spacing: 0.02em;
-    }
-     .platform ul li:last-child span {
-         margin-bottom: 24px;
-    }
-     .wheretovote ul li .platform-image {
-         width: 146px;
-         height: 130px;
-         margin-bottom: 8px;
-    }
-     .wheretovote ul li img {
-         width: 144px;
-         height: 128px;
-    }
-     .wheretovote ul li h2 {
-         font-size: 18px;
-         margin-bottom: 4px;
-    }
-     .wheretovote ul li p {
-         font-size: 14px;
-    }
-     .wheretovote ul li span {
-         font-size: 13px;
-         letter-spacing: 0.02em;
-    }
-     .wheretovote ul li:last-child span {
-         margin-bottom: 24px;
-    }
-     .contact-section p, .contact-section ul li p {
-         font-size: 10.5px;
-    }
-     .contact-form form {
-         margin-bottom: 24px;
-    }
-     .contact-form form input[type="text"], .contact-form form input[type="email"] {
-         font-size: 12px;
-         padding-top: 1px;
-         margin-left: 5%;
-    }
-     .contact-form form textarea {
-         font-size: 12px;
-         margin-left: 5%;
-    }
-     .contact-form form input[type="submit"] {
-         font-size: 12px;
-         padding: 4px 22px;
-         margin-left: auto;
-         margin-right: auto;
-         float: none;
-    }
-     .contact-form form label, #cf-success, #cf-error {
-         margin-left: 5%;
-    }
-     .ajax-popup {
-         padding-left: 0;
-         padding-right: 0;
-    }
-     #map-canvas {
-         min-height: 200px;
-    }
+ .cat-pages-title h2 {
+     font-size: 36px;
 }
- @media only screen and (min-width: 767px) and (max-width: 992px) {
-     #content-wrap, .cat-pages {
-         width: 100%;
-         left: 0px;
-    }
-     .cat-pages {
-         padding-top: 40px;
-    }
-     .cat-left-50 {
-         left: 0px !important;
-    }
-     .cat-left-25 {
-         left: 0px !important;
-    }
-     .cat-left-0 {
-         left: 0px !important;
-    }
-     .cat-pages-responsive-100 {
-         left: -100% !important;
-    }
-     .cat-pages-responsive-0 {
-         left: 0px !important;
-    }
-     .content-wrap-left, .content-wrap-right {
-         left: 100% !important;
-         display: none;
-    }
-     .main-content h2 {
-         font-size: 36px;
-    }
-     .main-content p {
-         width: 70%;
-         font-size: 16px;
-    }
-     .navigations ul li a {
-         width: 58%;
-    }
-     .navigations ul li a h3 {
-         font-size: 18px;
-         padding-top: 14px;
-    }
-     .navigations ul li a:hover h3 {
-         padding-top: 13px;
-    }
-     .navigations ul li a i {
-         font-size: 80px;
-         margin-top: -10px;
-    }
-     .nav-left {
-         left: -36px;
-    }
-     .nav-right {
-         right: -36px;
-    }
-     .responsive-menu {
-         display: block !important;
-    }
-     .cat-pages-title h2 {
-         font-size: 32px;
-    }
-     .title-seprator {
-         width: 80%;
-    }
-     .about-description p {
-         font-size: 15px;
-    }
-     .iconbox ul li i, .iconbox ul li.iconbox-right i {
-         height: 110px;
-         margin-top: 36px;
-    }
-     .iconbox ul li h3 {
-         font-size: 19px;
-    }
-     .iconbox ul li p {
-         font-size: 15px;
-    }
-     .btn span {
-         font-size: 14px;
-    }
-     .timeline-right ul li p {
-         margin-top: 4px;
-    }
-     .skill-item {
-         padding-left: 4%;
-    }
-     .quotes ul:before {
-         padding-left: 12px;
-    }
-     .platform ul li .platform-image {
-         margin-bottom: 20px;
-         left:183px;
-    }
-     .platform ul li:last-child span {
-         margin-bottom: 24px;
-    }
-
-          #fam1 > img {
-          margin-left: 75px;
-          margin-bottom: 20px;
-     }
-
-     #fam3 > img {
-          margin-left: 115px !important;
-          margin-bottom: 20px;
-          margin-top:40px !important;
-
-     }
-     #fam4 > img {
-          margin-bottom: 20px;
-          margin-left: 80px !important;
-
-     }
-     .ajax-popup {
-         margin-top: 58px;
-         padding-left: 0;
-         padding-right: 0;
-    }
-     .container {
-         width: 100%;
-    }
-     .platform-list .cat-left-0 {
-         left: auto !important;
-    }
-     .active-page {
-         display: block !important;
-         position: relative !important;
-         height: auto !important;
-         float: left !important;
-         padding: 0;
-         margin: 0;
-         overflow-y: auto !important;
-    }
+ .about-description p {
+     font-size: 15px;
+     line-height: 23px;
 }
- @media only screen and (max-width: 766px) {
-     #content-wrap, .cat-pages {
-         width: 100%;
-         left: 0px;
-    }
-     .cat-pages {
-         padding-top: 30px;
-         display: none;
-    }
-     .cat-left-50 {
-         left: 0px !important;
-    }
-     .cat-left-25 {
-         left: 0px !important;
-    }
-     .cat-left-0 {
-         left: 0px !important;
-    }
-     .cat-pages-responsive-100 {
-         left: -100% !important;
-    }
-     .cat-pages-responsive-0 {
-         left: 0px !important;
-    }
-     .content-wrap-left, .content-wrap-right {
-         left: 100% !important;
-         display: none !important;
-    }
-     .main-content h2 {
-         font-size: 36px;
-    }
-     .main-content p {
-         width: 80%;
-         font-size: 16px;
-    }
-     .navigations ul li a {
-         width: 70%;
-         height: 50px;
-    }
-     .navigations ul li a h3 {
-         font-size: 16px;
-         padding-top: 11px;
-    }
-     .navigations ul li a:hover h3 {
-         padding-top: 10px;
-    }
-     .navigations ul li a i {
-         font-size: 74px;
-         margin-top: -10px;
-    }
-     .nav-left {
-         left: -36px;
-    }
-     .nav-right {
-         right: -36px;
-    }
-     .responsive-menu {
-         display: block !important;
-    }
-     #responsive-menu .responsive-menu-bar {
-         height: 40px;
-    }
-     #responsive-menu .responsive-menu-bar span {
-         font-size: 17px;
-         padding: 8px 0 0 24px;
-    }
-     #responsive-menu .responsive-menu-bar i {
-         font-size: 23px;
-         padding-top: 9px;
-    }
-     #responsive-menu ul li h3 {
-         font-size: 15px;
-    }
-     #responsive-menu ul li i {
-         font-size: 16px;
-    }
-     .cat-pages-title h2 {
-         font-size: 28px;
-         padding-top: 7px;
-         margin-top: -30px;
-    }
-     .title-seprator {
-         width: 90%;
-    }
-     .about-description p {
-         font-size: 14px;
-         line-height: 21px;
-    }
-     .iconbox ul li i, .iconbox ul li.iconbox-right i {
-         display: block;
-         position: relative;
-         float: none;
-         margin: 18px auto;
-    }
-     .iconbox ul li h3 {
-         font-size: 18px;
-         text-align: center;
-         padding: 20px 0 0 0;
-    }
-     .iconbox ul li p {
-         font-size: 14px;
-         text-align: center;
-         line-height: 21px;
-         padding: 0;
-    }
-     .iconbox ul li.iconbox-right p, .iconbox ul li.iconbox-right h3 {
-         text-align: center;
-    }
-     .iconbox ul li.iconbox-right h3 {
-         padding: 20px 0 0 0;
-    }
-     .iconbox ul li.iconbox-right p {
-         padding: 0;
-    }
-     .btn {
-         margin-bottom: 24px;
-    }
-     .btn span {
-         font-size: 14px;
-    }
-     .timeline i {
-         font-size: 28px;
-    }
-     .timeline h3 {
-         font-size: 19px;
-    }
-     .timeline-left ul {
-         border-right: none;
-         margin-bottom: 36px !important;
-    }
-     .timeline-left ul li {
-         margin-right: 0;
-         text-align: center;
-    }
-     .timeline-right ul li {
-         margin-left: 0;
-         text-align: center;
-    }
-     .timeline ul li:first-child {
-         margin-top: 36px !important;
-    }
-     .timeline-right ul {
-         margin-bottom: 0px !important;
-    }
-     .timeline ul li span {
-         font-size: 14px;
-    }
-     .timeline ul li span:before, .timeline ul li span:after {
-         top: 0px;
-         display: none;
-    }
-     .timeline ul li h4 {
-         font-size: 17px;
-         margin: 4px 0;
-    }
-     .timeline ul li p {
-         font-size: 15px;
-         letter-spacing: 0.01em;
-         margin: 4px 0;
-    }
-     .timeline-right ul li p {
-         margin-top: 4px;
-    }
-     .skill-item {
-         padding-left: 10%;
-    }
-     .skill-item input[type="text"] {
-         font-size: 25px;
-    }
-     .skill-item h5 {
-         font-size: 15px;
-    }
-     .portfolio-fliter ul li {
-         font-size: 14px;
-         padding-bottom: 4px;
-         margin: 0 24px 18px;
-    }
-     .portfolio-fliter ul li:after {
-         margin-right: -28px;
-    }
-     .portfolio-items ul li {
-         width: 100%;
-    }
-     .portfolio-description h3 {
-         font-size: 13px;
-         letter-spacing: 0.06em;
-         line-height: 19px;
-    }
-     .portfolio-description p {
-         font-size: 11px;
-         letter-spacing: 0.02em;
-         line-height: 16px;
-    }
-     .quotes {
-         margin-bottom: 24px;
-    }
-     .quotes ul {
-         min-height: 200px;
-    }
-     .quotes ul li {
-         font-size: 13px;
-         line-height: 19px;
-    }
-     .quotes ul:before {
-         padding-left: 12px;
-    }
-     .platform ul li .platform-image {
-         width: 146px;
-         height: 130px;
-         display: block;
-         float: none;
-         margin: 20 0px 0px;
-    }
-     .platform ul li img {
-         width: 144px;
-         height: 128px;
-         margin-bottom:20px;
-    }
-     .platform ul li h2 {
-         display: block;
-         font-size: 18px;
-         text-align: center;
-         margin-bottom: 4px;
-    }
-     .platform ul li p {
-         display: block;
-         font-size: 14px;
-         text-align: center;
-         line-height: 21px;
-    }
-     .platform ul li span {
-         font-size: 13px;
-         letter-spacing: 0.02em;
-    }
-     .platform ul li:last-child span {
-         margin-bottom: 24px;
-    }
-     .wheretovote ul li .platform-image {
-         width: 146px;
-         height: 130px;
-         display: block;
-         float: none;
-         margin: 0 auto 20px;
-    }
-     .wheretovote ul li img {
-         width: 144px;
-         height: 128px;
-    }
-     .wheretovote ul li h2 {
-         display: block;
-         font-size: 18px;
-         text-align: center;
-         margin-bottom: 4px;
-    }
-     .wheretovote ul li p {
-         display: block;
-         font-size: 14px;
-         text-align: center;
-         line-height: 21px;
-    }
-     .wheretovote ul li span {
-         font-size: 13px;
-         letter-spacing: 0.02em;
-    }
-     .wheretovote ul li:last-child span {
-         margin-bottom: 24px;
-    }
-     .ajax-popup {
-         padding: 24px;
-         margin-top: 58px;
-         padding-top: 64px;
-         padding-left: 0;
-         padding-right: 0;
-    }
-     .container {
-         width: 100%;
-    }
-     .popup-close {
-         right: 45%;
-    }
-     .platform-single-title-seprator {
-         display: none;
-    }
-     .platform-single-title h2 {
-         font-size: 18px;
-         margin-bottom: 8px;
-    }
-     .platform-single-description p {
-         text-align: center;
-         font-size: 14px;
-         letter-spacing: 0.01em;
-         line-height: 21px;
-    }
-     .platform-single-description span {
-         font-size: 13px;
-    }
-     .platform-single-comments ul li h5 {
-         font-size: 14px;
-         letter-spacing: 0.03em;
-    }
-     .platform-single-comments ul li p {
-         font-size: 12px;
-         line-height: 18px;
-         letter-spacing: 0.01em;
-    }
-     .platform-single-comments ul li .comment-avatar {
-         margin-bottom: 36px;
-    }
-     .wheretovote-single-title-seprator {
-         display: none;
-    }
-     .wheretovote-single-title h2 {
-         font-size: 18px;
-         margin-bottom: 8px;
-    }
-     .wheretovote-single-description p {
-         text-align: center;
-         font-size: 14px;
-         letter-spacing: 0.01em;
-         line-height: 21px;
-    }
-     .wheretovote-single-description span {
-         font-size: 13px;
-    }
-     .wheretovote-single-comments ul li h5 {
-         font-size: 14px;
-         letter-spacing: 0.03em;
-    }
-     .wheretovote-single-comments ul li p {
-         font-size: 12px;
-         line-height: 18px;
-         letter-spacing: 0.01em;
-    }
-     .wheretovote-single-comments ul li .comment-avatar {
-         margin-bottom: 36px;
-    }
-     .comment-form-right {
-         float: left;
-    }
-     .contact-section p, .contact-section ul li p {
-         font-size: 10.5px;
-    }
-     .contact-form {
-         padding: 0;
-    }
-     .contact-form form {
-         margin-bottom: 24px;
-         float: left;
-         width: 100%;
-    }
-     .contact-form form input[type="text"], .contact-form form input[type="email"] {
-         font-size: 12px;
-         padding-top: 1px;
-         margin-left: 0;
-    }
-     .contact-form form textarea {
-         font-size: 12px;
-         margin-left: 0;
-    }
-     .contact-form form input[type="submit"] {
-         font-size: 12px;
-         padding: 4px 22px;
-         float: left;
-         margin-left: 0;
-    }
-     .contact-form form label, #cf-success, #cf-error {
-         margin-left: 0;
-    }
-     #map-canvas {
-         min-height: 160px;
-    }
-     .container {
-         width: 100%;
-    }
-     .single-page .cat-left-0 {
-         left: auto !important;
-    }
-     .menu {
-         display: none;
-    }
-     #responsive-menu, .responsive-menu-disable {
-         display: none;
-         visibility: visible;
-         opacity: 1;
-    }
-     .active-page {
-         display: block !important;
-         position: relative !important;
-         height: auto !important;
-         float: left !important;
-         padding: 0;
-         margin: 0;
-         overflow-y: auto !important;
-    }
-         .row#resume ul li {
-          margin-top:-150px;
-     }
-     #resume > div > div:nth-child(2) > div > div.col-lg-6.col-md-6.col-sm-6.col-xs-12.timeline-left > ul > li {
-          margin-top:20 !important;
+ .iconbox ul li i, .iconbox ul li.iconbox-right i {
+     height: 110px;
+     width: 75px;
+     padding: 23px;
+     margin-top: 24px;
 }
-     .timeline ul li:first-child {
-          margin-top:20px !important;
-     }
-     .timeline ul li:nth-child(2) {
-          margin-top:20px !important;
-     }
-     .timeline ul li:nth-child(3) {
-          margin-top:20px !important;
-     }
-     .timeline ul li:nth-child(4) {
-          margin-top:-20 !important;
-     }
-     .timeline ul li:last-child {
-          margin-top:-20px !important;
-     }
+ .iconbox ul li i:after {
+     width: 75px;
+     height: 75px;
 }
- @media only screen and (min-width: 370px) and (max-width: 395px) {
-#contact > div {
+ .iconbox ul li:last-child:after {
+     margin: 0 auto .5em;
+     padding: 0 0 3.5em;
+}
+ .iconbox ul li h3 {
+     font-size: 18px;
+}
+ .iconbox ul li p {
+     font-size: 14px;
+     line-height: 21px;
+}
+ .btn span {
+     font-size: 14px;
+}
+ .timeline i {
+     font-size: 27px;
+}
+ .timeline h3 {
+     font-size: 18px;
+}
+ .skill-item {
+     padding-left: 3%;
+     margin-bottom: 36px;
+}
+ .skill-item:before {
+     margin: 18px auto 22px;
+}
+ .skill-item input[type="text"] {
+     font-size: 23px;
+     width: 60px;
+}
+ .skill-item h5 {
+     font-size: 15px;
+}
+ .skills-title h3 {
+     font-size: 18px;
+}
+ .portfolio-fliter ul li {
+     font-size: 14px;
+}
+ .portfolio-description h3 {
+     font-size: 13px;
+     letter-spacing: 0.05em;
+     line-height: 19px;
+}
+ .portfolio-description p {
+     font-size: 11px;
+     letter-spacing: 0.01em;
+     line-height: 16px;
+}
+ .quotes ul:before {
+     font-size: 16px;
+}
+ .quotes ul li {
+     font-size: 13px;
+     line-height: 19px;
+     padding: 0 8px;
+}
+ .quotes ul:before {
+     padding-left: 12px;
+}
+ .platform ul li h2 {
+     font-size: 18px;
+     margin-bottom: 4px;
+}
+ .platform ul li p {
+     font-size: 14px;
+     line-height: 22px;
+}
+ .platform ul li:last-child span {
+     margin-bottom: 36px;
+}
+ .platform ul li .platform-image {
+     margin-bottom: 8px;
+}
+ .platform ul li span {
+     font-size: 13px;
+}
+ .wheretovote ul li h2 {
+     font-size: 18px;
+     margin-bottom: 4px;
+}
+ .wheretovote ul li p {
+     font-size: 14px;
+     line-height: 22px;
+}
+ .wheretovote ul li:last-child span {
+     margin-bottom: 36px;
+}
+ .wheretovote ul li .platform-image {
+     margin-bottom: 8px;
+}
+ .wheretovote ul li span {
+     font-size: 13px;
+}
+ .contact-info {
+     padding-right: 0;
+}
+ .contact-section p, .contact-section ul li p {
+     font-size: 10.5px;
+}
+ .contact-form form input[type="text"], .contact-form form input[type="email"] {
+     font-size: 13px;
+     padding-top: 1px;
+}
+ .contact-form form textarea {
+     font-size: 13px;
+}
+ .contact-form form input[type="submit"] {
+     font-size: 11px;
+     padding: 4px 22px;
+}
+ ::-webkit-input-placeholder {
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-size: 11px;
+}
+ ::-moz-placeholder {
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-size: 11px;
+}
+/* firefox 19+ */
+ :-ms-input-placeholder {
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-size: 11px;
+}
+/* ie */
+ input:-moz-placeholder {
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-size: 11px;
+}undefined}undefined @media only screen and (min-width: 1202px) and (max-width: 1367px) {
+ .cat-pages-title h2 {
+     font-size: 34px;
+}
+ .quotes {
+     margin-bottom: 24px;
+}
+ .quotes ul {
+     min-height: 180px;
+}
+ .quotes ul:before {
+     padding-left: 12px;
+}
+ .platform ul li .platform-image {
+     margin-bottom: 30px;
+}
+ .wheretovote ul li .platform-image {
+     margin-bottom: 30px;
+}
+ .contact-form form input[type="submit"] {
+     margin-bottom: 24px;
+}
+ .ajax-popup {
+     padding-left: 0;
+     padding-right: 0;
+}undefined}undefined @media only screen and (min-width: 1202px) and (max-width: 1281px) {
+ .platform ul li .platform-image {
+     margin-bottom: 8px;
+}
+ .wheretovote ul li .platform-image {
+     margin-bottom: 8px;
+}undefined}undefined @media only screen and (min-width: 993px) and (max-width: 1198px) {
+ .main-content h2 {
+     font-size: 36px;
+}
+ .main-content p {
+     width: 70%;
+     font-size: 16px;
+}
+ .navigations ul li a {
+     width: 58%;
+}
+ .navigations ul li a h3 {
+     font-size: 18px;
+     padding-top: 14px;
+}
+ .navigations ul li a:hover h3 {
+     padding-top: 13px;
+}
+ .navigations ul li a i {
+     font-size: 80px;
+     margin-top: -10px;
+}
+ .nav-left {
+     left: -36px;
+}
+ .nav-right {
+     right: -36px;
+}
+ .cat-pages-title h2 {
+     font-size: 32px;
+}
+ .title-seprator {
+     width: 80%;
+}
+ .about-description p {
+     font-size: 15px;
+}
+ .iconbox ul li i, .iconbox ul li.iconbox-right i {
+     height: 110px;
+     margin-top: 36px;
+}
+ .iconbox ul li h3 {
+     font-size: 19px;
+}
+ .iconbox ul li p {
+     font-size: 15px;
+}
+ .btn span {
+     font-size: 14px;
+}
+ .timeline i {
+     font-size: 30px;
+}
+ .timeline h3 {
+     font-size: 20px;
+}
+ .timeline ul li span {
+     font-size: 12px;
+}
+ .timeline ul li span:before, .timeline ul li span:after {
+     top: 0px;
+}
+ .timeline ul li h4 {
+     font-size: 14px;
+}
+ .timeline ul li p {
+     font-size: 13px;
+     letter-spacing: 0.01em;
+     margin-top: 4px;
+}
+ .timeline-right ul li p {
+     margin-top: 4px;
+}
+ .skill-item {
+     padding-left: 12%;
+}
+ .skill-item input[type="text"] {
+     font-size: 25px;
+}
+ .skill-item h5 {
+     font-size: 15px;
+}
+ .portfolio-fliter ul li {
+     font-size: 14px;
+}
+ .portfolio-description h3 {
+     font-size: 13px;
+     letter-spacing: 0.06em;
+     line-height: 19px;
+}
+ .portfolio-description p {
+     font-size: 11px;
+     letter-spacing: 0.02em;
+     line-height: 16px;
+}
+ #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
+     left:162px;
+}
+ .quotes {
+     margin-bottom: 24px;
+}
+ .quotes ul {
+     min-height: 200px;
+}
+ .quotes ul li {
+     font-size: 13px;
+}
+ .quotes ul:before {
+     padding-left: 12px;
+}
+ .platform ul li .platform-image {
+     width: 146px;
+     height: 130px;
+     margin-bottom: 20px;
+     margin-left:125px;
+}
+ .platform ul li img {
+     width: 144px;
+     height: 128px;
+}
+ .platform ul li h2 {
+     font-size: 18px;
+     margin-bottom: 4px;
+}
+ .platform ul li p {
+     font-size: 14px;
+}
+ .platform ul li span {
+     font-size: 13px;
+     letter-spacing: 0.02em;
+}
+ .platform ul li:last-child span {
+     margin-bottom: 24px;
+}
+ .wheretovote ul li .platform-image {
+     width: 146px;
+     height: 130px;
+     margin-bottom: 8px;
+}
+ .wheretovote ul li img {
+     width: 144px;
+     height: 128px;
+}
+ .wheretovote ul li h2 {
+     font-size: 18px;
+     margin-bottom: 4px;
+}
+ .wheretovote ul li p {
+     font-size: 14px;
+}
+ .wheretovote ul li span {
+     font-size: 13px;
+     letter-spacing: 0.02em;
+}
+ .wheretovote ul li:last-child span {
+     margin-bottom: 24px;
+}
+ .contact-section p, .contact-section ul li p {
+     font-size: 10.5px;
+}
+ .contact-form form {
+     margin-bottom: 24px;
+}
+ .contact-form form input[type="text"], .contact-form form input[type="email"] {
+     font-size: 12px;
+     padding-top: 1px;
+     margin-left: 5%;
+}
+ .contact-form form textarea {
+     font-size: 12px;
+     margin-left: 5%;
+}
+ .contact-form form input[type="submit"] {
+     font-size: 12px;
+     padding: 4px 22px;
+     margin-left: auto;
+     margin-right: auto;
+     float: none;
+}
+ .contact-form form label, #cf-success, #cf-error {
+     margin-left: 5%;
+}
+ .ajax-popup {
+     padding-left: 0;
+     padding-right: 0;
+}
+ #map-canvas {
+     min-height: 200px;
+}undefined}undefined @media only screen and (min-width: 767px) and (max-width: 992px) {
+ #content-wrap, .cat-pages {
+     width: 100%;
+     left: 0px;
+}
+ .cat-pages {
+     padding-top: 40px;
+}
+ .cat-left-50 {
+     left: 0px !important;
+}
+ .cat-left-25 {
+     left: 0px !important;
+}
+ .cat-left-0 {
+     left: 0px !important;
+}
+ .cat-pages-responsive-100 {
+     left: -100% !important;
+}
+ .cat-pages-responsive-0 {
+     left: 0px !important;
+}
+ .content-wrap-left, .content-wrap-right {
+     left: 100% !important;
+     display: none;
+}
+ .main-content h2 {
+     font-size: 36px;
+}
+ .main-content p {
+     width: 70%;
+     font-size: 16px;
+}
+ .navigations ul li a {
+     width: 58%;
+}
+ .navigations ul li a h3 {
+     font-size: 18px;
+     padding-top: 14px;
+}
+ .navigations ul li a:hover h3 {
+     padding-top: 13px;
+}
+ .navigations ul li a i {
+     font-size: 80px;
+     margin-top: -10px;
+}
+ .nav-left {
+     left: -36px;
+}
+ .nav-right {
+     right: -36px;
+}
+ .responsive-menu {
+     display: block !important;
+}
+ .cat-pages-title h2 {
+     font-size: 32px;
+}
+ .title-seprator {
+     width: 80%;
+}
+ .about-description p {
+     font-size: 15px;
+}
+ .iconbox ul li i, .iconbox ul li.iconbox-right i {
+     height: 110px;
+     margin-top: 36px;
+}
+ .iconbox ul li h3 {
+     font-size: 19px;
+}
+ .iconbox ul li p {
+     font-size: 15px;
+}
+ .btn span {
+     font-size: 14px;
+}
+ .timeline-right ul li p {
+     margin-top: 4px;
+}
+ .skill-item {
+     padding-left: 4%;
+}
+ .quotes ul:before {
+     padding-left: 12px;
+}
+ .platform ul li .platform-image {
+     margin-bottom: 20px;
+     left:183px;
+}
+ .platform ul li:last-child span {
+     margin-bottom: 24px;
+}
+ #fam1 > img {
+     margin-left: 75px;
+     margin-bottom: 20px;
+}
+ #fam3 > img {
+     margin-left: 115px !important;
+     margin-bottom: 20px;
+     margin-top:40px !important;
+}
+ #fam4 > img {
+     margin-bottom: 20px;
+     margin-left: 80px !important;
+}
+ .ajax-popup {
+     margin-top: 58px;
+     padding-left: 0;
+     padding-right: 0;
+}
+ .container {
+     width: 100%;
+}
+ .platform-list .cat-left-0 {
+     left: auto !important;
+}
+ .active-page {
+     display: block !important;
+     position: relative !important;
+     height: auto !important;
+     float: left !important;
+     padding: 0;
+     margin: 0;
+     overflow-y: auto !important;
+}undefined}undefined @media only screen and (max-width: 766px) {
+ #content-wrap, .cat-pages {
+     width: 100%;
+     left: 0px;
+}
+ .cat-pages {
+     padding-top: 30px;
+     display: none;
+}
+ .cat-left-50 {
+     left: 0px !important;
+}
+ .cat-left-25 {
+     left: 0px !important;
+}
+ .cat-left-0 {
+     left: 0px !important;
+}
+ .cat-pages-responsive-100 {
+     left: -100% !important;
+}
+ .cat-pages-responsive-0 {
+     left: 0px !important;
+}
+ .content-wrap-left, .content-wrap-right {
+     left: 100% !important;
+     display: none !important;
+}
+ .main-content h2 {
+     font-size: 36px;
+}
+ .main-content p {
+     width: 80%;
+     font-size: 16px;
+}
+ .navigations ul li a {
+     width: 70%;
+     height: 50px;
+}
+ .navigations ul li a h3 {
+     font-size: 16px;
+     padding-top: 11px;
+}
+ .navigations ul li a:hover h3 {
+     padding-top: 10px;
+}
+ .navigations ul li a i {
+     font-size: 74px;
+     margin-top: -10px;
+}
+ .nav-left {
+     left: -36px;
+}
+ .nav-right {
+     right: -36px;
+}
+ .responsive-menu {
+     display: block !important;
+}
+ #responsive-menu .responsive-menu-bar {
+     height: 40px;
+}
+ #responsive-menu .responsive-menu-bar span {
+     font-size: 17px;
+     padding: 8px 0 0 24px;
+}
+ #responsive-menu .responsive-menu-bar i {
+     font-size: 23px;
+     padding-top: 9px;
+}
+ #responsive-menu ul li h3 {
+     font-size: 15px;
+}
+ #responsive-menu ul li i {
+     font-size: 16px;
+}
+ .cat-pages-title h2 {
+     font-size: 28px;
+     padding-top: 7px;
+     margin-top: -30px;
+}
+ .title-seprator {
+     width: 90%;
+}
+ .about-description p {
+     font-size: 14px;
+     line-height: 21px;
+}
+ .iconbox ul li i, .iconbox ul li.iconbox-right i {
+     display: block;
+     position: relative;
+     float: none;
+     margin: 18px auto;
+}
+ .iconbox ul li h3 {
+     font-size: 18px;
+     text-align: center;
+     padding: 20px 0 0 0;
+}
+ .iconbox ul li p {
+     font-size: 14px;
+     text-align: center;
+     line-height: 21px;
+     padding: 0;
+}
+ .iconbox ul li.iconbox-right p, .iconbox ul li.iconbox-right h3 {
+     text-align: center;
+}
+ .iconbox ul li.iconbox-right h3 {
+     padding: 20px 0 0 0;
+}
+ .iconbox ul li.iconbox-right p {
+     padding: 0;
+}
+ .btn {
+     margin-bottom: 24px;
+}
+ .btn span {
+     font-size: 14px;
+}
+ .timeline i {
+     font-size: 28px;
+}
+ .timeline h3 {
+     font-size: 19px;
+}
+ .timeline-left ul {
+     border-right: none;
+     margin-bottom: 36px !important;
+}
+ .timeline-left ul li {
+     margin-right: 0;
+     text-align: center;
+}
+ .timeline-right ul li {
+     margin-left: 0;
+     text-align: center;
+}
+ .timeline ul li:first-child {
+     margin-top: 36px !important;
+}
+ .timeline-right ul {
+     margin-bottom: 0px !important;
+}
+ .timeline ul li span {
+     font-size: 14px;
+}
+ .timeline ul li span:before, .timeline ul li span:after {
+     top: 0px;
+     display: none;
+}
+ .timeline ul li h4 {
+     font-size: 17px;
+     margin: 4px 0;
+}
+ .timeline ul li p {
+     font-size: 15px;
+     letter-spacing: 0.01em;
+     margin: 4px 0;
+}
+ .timeline-right ul li p {
+     margin-top: 4px;
+}
+ .skill-item {
+     padding-left: 10%;
+}
+ .skill-item input[type="text"] {
+     font-size: 25px;
+}
+ .skill-item h5 {
+     font-size: 15px;
+}
+ .portfolio-fliter ul li {
+     font-size: 14px;
+     padding-bottom: 4px;
+     margin: 0 24px 18px;
+}
+ .portfolio-fliter ul li:after {
+     margin-right: -28px;
+}
+ .portfolio-items ul li {
+     width: 100%;
+}
+ .portfolio-description h3 {
+     font-size: 13px;
+     letter-spacing: 0.06em;
+     line-height: 19px;
+}
+ .portfolio-description p {
+     font-size: 11px;
+     letter-spacing: 0.02em;
+     line-height: 16px;
+}
+ .quotes {
+     margin-bottom: 24px;
+}
+ .quotes ul {
+     min-height: 200px;
+}
+ .quotes ul li {
+     font-size: 13px;
+     line-height: 19px;
+}
+ .quotes ul:before {
+     padding-left: 12px;
+}
+ .platform ul li .platform-image {
+     width: 146px;
+     height: 130px;
+     display: block;
+     float: none;
+     margin: 20 0px 0px;
+}
+ .platform ul li img {
+     width: 144px;
+     height: 128px;
+     margin-bottom:20px;
+}
+ .platform ul li h2 {
+     display: block;
+     font-size: 18px;
+     text-align: center;
+     margin-bottom: 4px;
+}
+ .platform ul li p {
+     display: block;
+     font-size: 14px;
+     text-align: center;
+     line-height: 21px;
+}
+ .platform ul li span {
+     font-size: 13px;
+     letter-spacing: 0.02em;
+}
+ .platform ul li:last-child span {
+     margin-bottom: 24px;
+}
+ .wheretovote ul li .platform-image {
+     width: 146px;
+     height: 130px;
+     display: block;
+     float: none;
+     margin: 0 auto 20px;
+}
+ .wheretovote ul li img {
+     width: 144px;
+     height: 128px;
+}
+ .wheretovote ul li h2 {
+     display: block;
+     font-size: 18px;
+     text-align: center;
+     margin-bottom: 4px;
+}
+ .wheretovote ul li p {
+     display: block;
+     font-size: 14px;
+     text-align: center;
+     line-height: 21px;
+}
+ .wheretovote ul li span {
+     font-size: 13px;
+     letter-spacing: 0.02em;
+}
+ .wheretovote ul li:last-child span {
+     margin-bottom: 24px;
+}
+ .ajax-popup {
+     padding: 24px;
+     margin-top: 58px;
+     padding-top: 64px;
+     padding-left: 0;
+     padding-right: 0;
+}
+ .container {
+     width: 100%;
+}
+ .popup-close {
+     right: 45%;
+}
+ .platform-single-title-seprator {
+     display: none;
+}
+ .platform-single-title h2 {
+     font-size: 18px;
+     margin-bottom: 8px;
+}
+ .platform-single-description p {
+     text-align: center;
+     font-size: 14px;
+     letter-spacing: 0.01em;
+     line-height: 21px;
+}
+ .platform-single-description span {
+     font-size: 13px;
+}
+ .platform-single-comments ul li h5 {
+     font-size: 14px;
+     letter-spacing: 0.03em;
+}
+ .platform-single-comments ul li p {
+     font-size: 12px;
+     line-height: 18px;
+     letter-spacing: 0.01em;
+}
+ .platform-single-comments ul li .comment-avatar {
+     margin-bottom: 36px;
+}
+ .wheretovote-single-title-seprator {
+     display: none;
+}
+ .wheretovote-single-title h2 {
+     font-size: 18px;
+     margin-bottom: 8px;
+}
+ .wheretovote-single-description p {
+     text-align: center;
+     font-size: 14px;
+     letter-spacing: 0.01em;
+     line-height: 21px;
+}
+ .wheretovote-single-description span {
+     font-size: 13px;
+}
+ .wheretovote-single-comments ul li h5 {
+     font-size: 14px;
+     letter-spacing: 0.03em;
+}
+ .wheretovote-single-comments ul li p {
+     font-size: 12px;
+     line-height: 18px;
+     letter-spacing: 0.01em;
+}
+ .wheretovote-single-comments ul li .comment-avatar {
+     margin-bottom: 36px;
+}
+ .comment-form-right {
+     float: left;
+}
+ .contact-section p, .contact-section ul li p {
+     font-size: 10.5px;
+}
+ .contact-form {
+     padding: 0;
+}
+ .contact-form form {
+     margin-bottom: 24px;
+     float: left;
+     width: 100%;
+}
+ .contact-form form input[type="text"], .contact-form form input[type="email"] {
+     font-size: 12px;
+     padding-top: 1px;
+     margin-left: 0;
+}
+ .contact-form form textarea {
+     font-size: 12px;
+     margin-left: 0;
+}
+ .contact-form form input[type="submit"] {
+     font-size: 12px;
+     padding: 4px 22px;
+     float: left;
+     margin-left: 0;
+}
+ .contact-form form label, #cf-success, #cf-error {
+     margin-left: 0;
+}
+ #map-canvas {
+     min-height: 160px;
+}
+ .container {
+     width: 100%;
+}
+ .single-page .cat-left-0 {
+     left: auto !important;
+}
+ .menu {
+     display: none;
+}
+ #responsive-menu, .responsive-menu-disable {
+     display: none;
+     visibility: visible;
+     opacity: 1;
+}
+ .active-page {
+     display: block !important;
+     position: relative !important;
+     height: auto !important;
+     float: left !important;
+     padding: 0;
+     margin: 0;
+     overflow-y: auto !important;
+}
+ .row#resume ul li {
+     margin-top:-150px;
+}
+ #resume > div > div:nth-child(2) > div > div.col-lg-6.col-md-6.col-sm-6.col-xs-12.timeline-left > ul > li {
+     margin-top:20 !important;
+}
+ .timeline ul li:first-child {
+     margin-top:20px !important;
+}
+ .timeline ul li:nth-child(2) {
+     margin-top:20px !important;
+}
+ .timeline ul li:nth-child(3) {
+     margin-top:20px !important;
+}
+ .timeline ul li:nth-child(4) {
+     margin-top:-20 !important;
+}
+ .timeline ul li:last-child {
+     margin-top:-20px !important;
+}undefined}undefined @media only screen and (min-width: 370px) and (max-width: 395px) {
+ #contact > div {
      margin-top:30%;
 }
-
-#platform > div {
+ #platform > div {
      margin-top:30%;
 }
-
-#about > div {
+ #about > div {
      margin-top:30%;
 }
-
-#portfolio > div {
+ #portfolio > div {
      margin-top:30%;
 }
-#resume > div > div:nth-child(3) > div > div > div:nth-child(2) {
-     margin-left:-25px;
-
-}
-#resume > div > div:nth-child(3) > div > div > div:nth-child(4) {
+ #resume > div > div:nth-child(3) > div > div > div:nth-child(2) {
      margin-left:-25px;
 }
-
-     #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
-          left:88px;
-     }
-     #content-wrap, .cat-pages {
-         width: 100%;
-         left: 0px;
-    }
-     .cat-pages {
-         padding-top: 30px;
-         display: none;
-    }
-     .cat-left-50 {
-         left: 0px !important;
-    }
-     .cat-left-25 {
-         left: 0px !important;
-    }
-     .cat-left-0 {
-         left: 0px !important;
-    }
-     .cat-pages-responsive-100 {
-         left: -100% !important;
-    }
-     .cat-pages-responsive-0 {
-         left: 0px !important;
-    }
-     .content-wrap-left, .content-wrap-right {
-         left: 100% !important;
-         display: none !important;
-    }
-     .main-content h2 {
-         font-size: 36px;
-    }
-     .main-content p {
-         width: 80%;
-         font-size: 16px;
-    }
-     .navigations ul li a {
-         width: 70%;
-         height: 50px;
-    }
-     .navigations ul li a h3 {
-         font-size: 16px;
-         padding-top: 11px;
-    }
-     .navigations ul li a:hover h3 {
-         padding-top: 10px;
-    }
-     .navigations ul li a i {
-         font-size: 74px;
-         margin-top: -10px;
-    }
-     .nav-left {
-         left: -36px;
-    }
-     .nav-right {
-         right: -36px;
-    }
-     .responsive-menu {
-         display: block !important;
-    }
-     #responsive-menu .responsive-menu-bar {
-         height: 40px;
-    }
-     #responsive-menu .responsive-menu-bar span {
-         font-size: 17px;
-         padding: 8px 0 0 24px;
-    }
-     #responsive-menu .responsive-menu-bar i {
-         font-size: 23px;
-         padding-top: 9px;
-    }
-     #responsive-menu ul li h3 {
-         font-size: 15px;
-    }
-     #responsive-menu ul li i {
-         font-size: 16px;
-    }
-     .cat-pages-title h2 {
-         font-size: 28px;
-         padding-top: 7px;
-         margin-top: -30px;
-    }
-     .title-seprator {
-         width: 90%;
-    }
-     .about-description p {
-         font-size: 14px;
-         line-height: 21px;
-    }
-     .iconbox ul li i, .iconbox ul li.iconbox-right i {
-         display: block;
-         position: relative;
-         float: none;
-         margin: 18px auto;
-    }
-     .iconbox ul li h3 {
-         font-size: 18px;
-         text-align: center;
-         padding: 20px 0 0 0;
-    }
-     .iconbox ul li p {
-         font-size: 14px;
-         text-align: center;
-         line-height: 21px;
-         padding: 0;
-    }
-     .iconbox ul li.iconbox-right p, .iconbox ul li.iconbox-right h3 {
-         text-align: center;
-    }
-     .iconbox ul li.iconbox-right h3 {
-         padding: 20px 0 0 0;
-    }
-     .iconbox ul li.iconbox-right p {
-         padding: 0;
-    }
-     .btn {
-         margin-bottom: 24px;
-    }
-     .btn span {
-         font-size: 14px;
-    }
-     .timeline i {
-         font-size: 28px;
-    }
-     .timeline h3 {
-         font-size: 19px;
-    }
-     .timeline-left ul {
-         border-right: none;
-         margin-bottom: 36px !important;
-    }
-     .timeline-left ul li {
-         margin-right: 0;
-         text-align: center;
-    }
-     .timeline-right ul li {
-         margin-left: 0;
-         text-align: center;
-    }
-     .timeline ul li:first-child {
-         margin-top: 36px !important;
-    }
-     .timeline-right ul {
-         margin-bottom: 0px !important;
-    }
-     .timeline ul li span {
-         font-size: 14px;
-    }
-     .timeline ul li span:before, .timeline ul li span:after {
-         top: 0px;
-         display: none;
-    }
-     .timeline ul li h4 {
-         font-size: 17px;
-         margin: 4px 0;
-    }
-     .timeline ul li p {
-         font-size: 15px;
-         letter-spacing: 0.01em;
-         margin: 4px 0;
-    }
-     .timeline-right ul li p {
-         margin-top: 4px;
-    }
-     .skill-item {
-         padding-left: 10%;
-    }
-     .skill-item input[type="text"] {
-         font-size: 25px;
-    }
-     .skill-item h5 {
-         font-size: 15px;
-    }
-     .portfolio-fliter ul li {
-         font-size: 14px;
-         padding-bottom: 4px;
-         margin: 0 24px 18px;
-    }
-     .portfolio-fliter ul li:after {
-         margin-right: -28px;
-    }
-     .portfolio-items ul li {
-         width: 50%;
-    }
-     .portfolio-description h3 {
-         font-size: 13px;
-         letter-spacing: 0.06em;
-         line-height: 19px;
-    }
-     .portfolio-description p {
-         font-size: 11px;
-         letter-spacing: 0.02em;
-         line-height: 16px;
-    }
-     .quotes {
-         margin-bottom: 24px;
-    }
-     .quotes ul {
-         min-height: 200px;
-    }
-     .quotes ul li {
-         font-size: 13px;
-         line-height: 19px;
-    }
-     .quotes ul:before {
-         padding-left: 12px;
-    }
-     .platform ul li .platform-image {
-         width: 146px;
-         height: 130px;
-         display: block;
-         float: none;
-         margin: 20 -55px 0px;
-    }
-     .platform ul li img {
-         width: 144px;
-         height: 128px;
-    }
-     .platform ul li h2 {
-         display: block;
-         font-size: 18px;
-         text-align: center;
-         margin-bottom: 4px;
-    }
-     .platform ul li p {
-         display: block;
-         font-size: 14px;
-         text-align: center;
-         line-height: 21px;
-    }
-     .platform ul li span {
-         font-size: 13px;
-         letter-spacing: 0.02em;
-    }
-     .platform ul li:last-child span {
-         margin-bottom: 24px;
-    }
-     .wheretovote ul li .platform-image {
-         width: 146px;
-         height: 130px;
-         display: block;
-         float: none;
-         margin: 0 auto 20px;
-    }
-     .wheretovote ul li img {
-         width: 144px;
-         height: 128px;
-    }
-     .wheretovote ul li h2 {
-         display: block;
-         font-size: 18px;
-         text-align: center;
-         margin-bottom: 4px;
-    }
-     .wheretovote ul li p {
-         display: block;
-         font-size: 14px;
-         text-align: center;
-         line-height: 21px;
-    }
-     .wheretovote ul li span {
-         font-size: 13px;
-         letter-spacing: 0.02em;
-    }
-     .wheretovote ul li:last-child span {
-         margin-bottom: 24px;
-    }
-     .ajax-popup {
-         padding: 24px;
-         margin-top: 58px;
-         padding-top: 64px;
-         padding-left: 0;
-         padding-right: 0;
-    }
-     .container {
-         width: 100%;
-    }
-     .popup-close {
-         right: 45%;
-    }
-     .platform-single-title-seprator {
-         display: none;
-    }
-     .platform-single-title h2 {
-         font-size: 18px;
-         margin-bottom: 8px;
-    }
-     .platform-single-description p {
-         text-align: center;
-         font-size: 14px;
-         letter-spacing: 0.01em;
-         line-height: 21px;
-    }
-     .platform-single-description span {
-         font-size: 13px;
-    }
-     .platform-single-comments ul li h5 {
-         font-size: 14px;
-         letter-spacing: 0.03em;
-    }
-     .platform-single-comments ul li p {
-         font-size: 12px;
-         line-height: 18px;
-         letter-spacing: 0.01em;
-    }
-     .platform-single-comments ul li .comment-avatar {
-         margin-bottom: 36px;
-    }
-     .wheretovote-single-title-seprator {
-         display: none;
-    }
-     .wheretovote-single-title h2 {
-         font-size: 18px;
-         margin-bottom: 8px;
-    }
-     .wheretovote-single-description p {
-         text-align: center;
-         font-size: 14px;
-         letter-spacing: 0.01em;
-         line-height: 21px;
-    }
-     .wheretovote-single-description span {
-         font-size: 13px;
-    }
-     .wheretovote-single-comments ul li h5 {
-         font-size: 14px;
-         letter-spacing: 0.03em;
-    }
-     .wheretovote-single-comments ul li p {
-         font-size: 12px;
-         line-height: 18px;
-         letter-spacing: 0.01em;
-    }
-     .wheretovote-single-comments ul li .comment-avatar {
-         margin-bottom: 36px;
-    }
-     .comment-form-right {
-         float: left;
-    }
-     .contact-section p, .contact-section ul li p {
-         font-size: 10.5px;
-    }
-     .contact-form {
-         padding: 0;
-    }
-     .contact-form form {
-         margin-bottom: 24px;
-         float: left;
-         width: 100%;
-    }
-     .contact-form form input[type="text"], .contact-form form input[type="email"] {
-         font-size: 12px;
-         padding-top: 1px;
-         margin-left: 0;
-    }
-     .contact-form form textarea {
-         font-size: 12px;
-         margin-left: 0;
-    }
-     .contact-form form input[type="submit"] {
-         font-size: 12px;
-         padding: 4px 22px;
-         float: left;
-         margin-left: 0;
-    }
-     .contact-form form label, #cf-success, #cf-error {
-         margin-left: 0;
-    }
-     #map-canvas {
-         min-height: 160px;
-    }
-     .container {
-         width: 100%;
-    }
-     .single-page .cat-left-0 {
-         left: auto !important;
-    }
-     .menu {
-         display: none;
-    }
-     #responsive-menu, .responsive-menu-disable {
-         display: none;
-         visibility: visible;
-         opacity: 1;
-    }
-     .active-page {
-         display: block !important;
-         position: relative !important;
-         height: auto !important;
-         float: left !important;
-         padding: 0;
-         margin: 0;
-         overflow-y: auto !important;
-    }
-     .skill-item {
-         padding-left: 17%;
-    }
-      .platform ul li .platform-image {
-         width: 146px;
-         height: 130px;
-         display: block;
-         float: none;
-         margin: 20px 70px 20px;
-          }
-     .contet-wrap section {
-          height:100px;
-     } 
-          #content-wrap > div {
-          margin-top:30%;
-          margin-bottom:70px;
-     }
-     #about > div {
-          margin-top:110px;
-     } 
-     div#fam1.platform-image > img {
-          margin-left: -50px;
-     }
-       #fam3 > img {
-          margin-left:-30px;
-          height:303px;
-          width:202px;
-     }
-     #fam4 > img {
-          margin-left:-40px;
-
-     }
-     #resume > div {
-          margin-top:100px;
-          margin-bottom:100px;
-     }
-     .row#resume ul li {
-          margin-top:-150px;
-     }
-     #resume > div > div:nth-child(2) > div > div.col-lg-6.col-md-6.col-sm-6.col-xs-12.timeline-left > ul > li {
-          margin-top:20 !important;
+ #resume > div > div:nth-child(3) > div > div > div:nth-child(4) {
+     margin-left:-25px;
 }
-     .timeline ul li:first-child {
-          margin-top:20px !important;
-     }
-     .timeline ul li:nth-child(2) {
-          margin-top:20px !important;
-     }
-     .timeline ul li:nth-child(3) {
-          margin-top:20px !important;
-     }
-     .timeline ul li:nth-child(4) {
-          margin-top:-20 !important;
-     }
-     .timeline ul li:last-child {
-          margin-top:-20px !important;
-     }
-     
+ #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
+     left:88px;
 }
+ #content-wrap, .cat-pages {
+     width: 100%;
+     left: 0px;
 }
-
-
-
-      @media only screen and (min-width: 405px) and (max-width: 413px) {
-     #platform > div > div:nth-child(2) > div > div > ul > li > div {
-          left:85px !important;
-     }
-
-     #platform > div > div:nth-child(2) > div > div > ul > li > div > img {
-          float:right;
-     }
-     #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
-         left:88px;
-     }
-     .skill-item {
-         padding-left: 17%;
-    }
-      .platform ul li .platform-image {
-         width: 146px !important;
-         height: 130px !important;
-         display: block !important;
-         float: none !important;
-         margin: 20 -55px 0px !important;
-    }
-         .contet-wrap section {
-          height:100px;
-     } 
-          #content-wrap > div {
-          margin-bottom:50px;
-          margin-top:100px;
-     } 
-          #fam1 > img {
-          margin-left: -30px !important;
-     }
-       #fam3 > img {
-          margin-left:-60px;
-          height:303px;
-          width:202px;
-     }
-            #fam4 > img {
-          margin-left:-60px;
-
-     }
-     #resume > div {
-          margin-top:100px;
-          margin-bottom:100px;
-     }
-     .row#resume ul li {
-          margin-top:-150px;
-     }
-#resume > div > div:nth-child(2) > div > div.col-lg-6.col-md-6.col-sm-6.col-xs-12.timeline-left > ul > li {
-          margin-top:20 !important;
+ .cat-pages {
+     padding-top: 30px;
+     display: none;
 }
-     .timeline ul li:first-child {
-          margin-top:20px !important;
-     }
-          .timeline ul li:nth-child(2) {
-          margin-top:20px !important;
-     }
-          .timeline ul li:nth-child(3) {
-          margin-top:20px !important;
-     }
-     .timeline ul li:nth-child(4) {
-          margin-top:-20 !important;
-     }
-     .timeline ul li:last-child {
-          margin-top:-20px !important;
-     }
-
+ .cat-left-50 {
+     left: 0px !important;
 }
- @media only screen and (min-width: 355px) and (max-width: 365px) {
-     .platform ul li .platform-image {
-          left: 60px !important;
-          margin-bottom:20px;
-     }
-     #fam1 > img {
-          float:right;
-          margin-right: 18px;
-          margin-bottom: 20px;
-     }
-
-     #fam3 > img {
-          float:right;
-          margin-right: -15px;
-          margin-bottom: 20px;
-
-     }
-     #fam4 > img {
-          float:right;
-          margin-bottom: 20px;
-
-     }
-     @media screen and (-webkit-min-device-pixel-ratio:0) { 
-  select:focus,
-  textarea:focus,
-  input:focus {
-    font-size: 16px;
-    background: #eee;
-  }
+ .cat-left-25 {
+     left: 0px !important;
 }
-
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
-  select,
-  textarea,
-  input {
-    font-size: 16px;
-  }
+ .cat-left-0 {
+     left: 0px !important;
 }
-
-     }
+ .cat-pages-responsive-100 {
+     left: -100% !important;
 }
+ .cat-pages-responsive-0 {
+     left: 0px !important;
+}
+ .content-wrap-left, .content-wrap-right {
+     left: 100% !important;
+     display: none !important;
+}
+ .main-content h2 {
+     font-size: 36px;
+}
+ .main-content p {
+     width: 80%;
+     font-size: 16px;
+}
+ .navigations ul li a {
+     width: 70%;
+     height: 50px;
+}
+ .navigations ul li a h3 {
+     font-size: 16px;
+     padding-top: 11px;
+}
+ .navigations ul li a:hover h3 {
+     padding-top: 10px;
+}
+ .navigations ul li a i {
+     font-size: 74px;
+     margin-top: -10px;
+}
+ .nav-left {
+     left: -36px;
+}
+ .nav-right {
+     right: -36px;
+}
+ .responsive-menu {
+     display: block !important;
+}
+ #responsive-menu .responsive-menu-bar {
+     height: 40px;
+}
+ #responsive-menu .responsive-menu-bar span {
+     font-size: 17px;
+     padding: 8px 0 0 24px;
+}
+ #responsive-menu .responsive-menu-bar i {
+     font-size: 23px;
+     padding-top: 9px;
+}
+ #responsive-menu ul li h3 {
+     font-size: 15px;
+}
+ #responsive-menu ul li i {
+     font-size: 16px;
+}
+ .cat-pages-title h2 {
+     font-size: 28px;
+     padding-top: 7px;
+     margin-top: -30px;
+}
+ .title-seprator {
+     width: 90%;
+}
+ .about-description p {
+     font-size: 14px;
+     line-height: 21px;
+}
+ .iconbox ul li i, .iconbox ul li.iconbox-right i {
+     display: block;
+     position: relative;
+     float: none;
+     margin: 18px auto;
+}
+ .iconbox ul li h3 {
+     font-size: 18px;
+     text-align: center;
+     padding: 20px 0 0 0;
+}
+ .iconbox ul li p {
+     font-size: 14px;
+     text-align: center;
+     line-height: 21px;
+     padding: 0;
+}
+ .iconbox ul li.iconbox-right p, .iconbox ul li.iconbox-right h3 {
+     text-align: center;
+}
+ .iconbox ul li.iconbox-right h3 {
+     padding: 20px 0 0 0;
+}
+ .iconbox ul li.iconbox-right p {
+     padding: 0;
+}
+ .btn {
+     margin-bottom: 24px;
+}
+ .btn span {
+     font-size: 14px;
+}
+ .timeline i {
+     font-size: 28px;
+}
+ .timeline h3 {
+     font-size: 19px;
+}
+ .timeline-left ul {
+     border-right: none;
+     margin-bottom: 36px !important;
+}
+ .timeline-left ul li {
+     margin-right: 0;
+     text-align: center;
+}
+ .timeline-right ul li {
+     margin-left: 0;
+     text-align: center;
+}
+ .timeline ul li:first-child {
+     margin-top: 36px !important;
+}
+ .timeline-right ul {
+     margin-bottom: 0px !important;
+}
+ .timeline ul li span {
+     font-size: 14px;
+}
+ .timeline ul li span:before, .timeline ul li span:after {
+     top: 0px;
+     display: none;
+}
+ .timeline ul li h4 {
+     font-size: 17px;
+     margin: 4px 0;
+}
+ .timeline ul li p {
+     font-size: 15px;
+     letter-spacing: 0.01em;
+     margin: 4px 0;
+}
+ .timeline-right ul li p {
+     margin-top: 4px;
+}
+ .skill-item {
+     padding-left: 10%;
+}
+ .skill-item input[type="text"] {
+     font-size: 25px;
+}
+ .skill-item h5 {
+     font-size: 15px;
+}
+ .portfolio-fliter ul li {
+     font-size: 14px;
+     padding-bottom: 4px;
+     margin: 0 24px 18px;
+}
+ .portfolio-fliter ul li:after {
+     margin-right: -28px;
+}
+ .portfolio-items ul li {
+     width: 50%;
+}
+ .portfolio-description h3 {
+     font-size: 13px;
+     letter-spacing: 0.06em;
+     line-height: 19px;
+}
+ .portfolio-description p {
+     font-size: 11px;
+     letter-spacing: 0.02em;
+     line-height: 16px;
+}
+ .quotes {
+     margin-bottom: 24px;
+}
+ .quotes ul {
+     min-height: 200px;
+}
+ .quotes ul li {
+     font-size: 13px;
+     line-height: 19px;
+}
+ .quotes ul:before {
+     padding-left: 12px;
+}
+ .platform ul li .platform-image {
+     width: 146px;
+     height: 130px;
+     display: block;
+     float: none;
+     margin: 20 -55px 0px;
+}
+ .platform ul li img {
+     width: 144px;
+     height: 128px;
+}
+ .platform ul li h2 {
+     display: block;
+     font-size: 18px;
+     text-align: center;
+     margin-bottom: 4px;
+}
+ .platform ul li p {
+     display: block;
+     font-size: 14px;
+     text-align: center;
+     line-height: 21px;
+}
+ .platform ul li span {
+     font-size: 13px;
+     letter-spacing: 0.02em;
+}
+ .platform ul li:last-child span {
+     margin-bottom: 24px;
+}
+ .wheretovote ul li .platform-image {
+     width: 146px;
+     height: 130px;
+     display: block;
+     float: none;
+     margin: 0 auto 20px;
+}
+ .wheretovote ul li img {
+     width: 144px;
+     height: 128px;
+}
+ .wheretovote ul li h2 {
+     display: block;
+     font-size: 18px;
+     text-align: center;
+     margin-bottom: 4px;
+}
+ .wheretovote ul li p {
+     display: block;
+     font-size: 14px;
+     text-align: center;
+     line-height: 21px;
+}
+ .wheretovote ul li span {
+     font-size: 13px;
+     letter-spacing: 0.02em;
+}
+ .wheretovote ul li:last-child span {
+     margin-bottom: 24px;
+}
+ .ajax-popup {
+     padding: 24px;
+     margin-top: 58px;
+     padding-top: 64px;
+     padding-left: 0;
+     padding-right: 0;
+}
+ .container {
+     width: 100%;
+}
+ .popup-close {
+     right: 45%;
+}
+ .platform-single-title-seprator {
+     display: none;
+}
+ .platform-single-title h2 {
+     font-size: 18px;
+     margin-bottom: 8px;
+}
+ .platform-single-description p {
+     text-align: center;
+     font-size: 14px;
+     letter-spacing: 0.01em;
+     line-height: 21px;
+}
+ .platform-single-description span {
+     font-size: 13px;
+}
+ .platform-single-comments ul li h5 {
+     font-size: 14px;
+     letter-spacing: 0.03em;
+}
+ .platform-single-comments ul li p {
+     font-size: 12px;
+     line-height: 18px;
+     letter-spacing: 0.01em;
+}
+ .platform-single-comments ul li .comment-avatar {
+     margin-bottom: 36px;
+}
+ .wheretovote-single-title-seprator {
+     display: none;
+}
+ .wheretovote-single-title h2 {
+     font-size: 18px;
+     margin-bottom: 8px;
+}
+ .wheretovote-single-description p {
+     text-align: center;
+     font-size: 14px;
+     letter-spacing: 0.01em;
+     line-height: 21px;
+}
+ .wheretovote-single-description span {
+     font-size: 13px;
+}
+ .wheretovote-single-comments ul li h5 {
+     font-size: 14px;
+     letter-spacing: 0.03em;
+}
+ .wheretovote-single-comments ul li p {
+     font-size: 12px;
+     line-height: 18px;
+     letter-spacing: 0.01em;
+}
+ .wheretovote-single-comments ul li .comment-avatar {
+     margin-bottom: 36px;
+}
+ .comment-form-right {
+     float: left;
+}
+ .contact-section p, .contact-section ul li p {
+     font-size: 10.5px;
+}
+ .contact-form {
+     padding: 0;
+}
+ .contact-form form {
+     margin-bottom: 24px;
+     float: left;
+     width: 100%;
+}
+ .contact-form form input[type="text"], .contact-form form input[type="email"] {
+     font-size: 12px;
+     padding-top: 1px;
+     margin-left: 0;
+}
+ .contact-form form textarea {
+     font-size: 12px;
+     margin-left: 0;
+}
+ .contact-form form input[type="submit"] {
+     font-size: 12px;
+     padding: 4px 22px;
+     float: left;
+     margin-left: 0;
+}
+ .contact-form form label, #cf-success, #cf-error {
+     margin-left: 0;
+}
+ #map-canvas {
+     min-height: 160px;
+}
+ .container {
+     width: 100%;
+}
+ .single-page .cat-left-0 {
+     left: auto !important;
+}
+ .menu {
+     display: none;
+}
+ #responsive-menu, .responsive-menu-disable {
+     display: none;
+     visibility: visible;
+     opacity: 1;
+}
+ .active-page {
+     display: block !important;
+     position: relative !important;
+     height: auto !important;
+     float: left !important;
+     padding: 0;
+     margin: 0;
+     overflow-y: auto !important;
+}
+ .skill-item {
+     padding-left: 17%;
+}
+ .platform ul li .platform-image {
+     width: 146px;
+     height: 130px;
+     display: block;
+     float: none;
+     margin: 20px 70px 20px;
+}
+ .contet-wrap section {
+     height:100px;
+}
+ #content-wrap > div {
+     margin-top:30%;
+     margin-bottom:70px;
+}
+ #about > div {
+     margin-top:110px;
+}
+ div#fam1.platform-image > img {
+     margin-left: -50px;
+}
+ #fam3 > img {
+     margin-left:-30px;
+     height:303px;
+     width:202px;
+}
+ #fam4 > img {
+     margin-left:-40px;
+}
+ #resume > div {
+     margin-top:100px;
+     margin-bottom:100px;
+}
+ .row#resume ul li {
+     margin-top:-150px;
+}
+ #resume > div > div:nth-child(2) > div > div.col-lg-6.col-md-6.col-sm-6.col-xs-12.timeline-left > ul > li {
+     margin-top:20 !important;
+}
+ .timeline ul li:first-child {
+     margin-top:20px !important;
+}
+ .timeline ul li:nth-child(2) {
+     margin-top:20px !important;
+}
+ .timeline ul li:nth-child(3) {
+     margin-top:20px !important;
+}
+ .timeline ul li:nth-child(4) {
+     margin-top:-20 !important;
+}
+ .timeline ul li:last-child {
+     margin-top:-20px !important;
+}undefined}undefined}undefined @media only screen and (min-width: 405px) and (max-width: 413px) {undefined #platform > div > div:nth-child(2) > div > div > ul > li > div {
+ left:85px !important;undefined}undefined #platform > div > div:nth-child(2) > div > div > ul > li > div > img {
+ float:right;undefined}undefined #portfolio > div > div:nth-child(2) > div > ul > li:nth-child(23) {
+ left:88px;undefined}undefined .skill-item {
+ padding-left: 17%;undefined}undefined .platform ul li .platform-image {
+ width: 146px !important;
+ height: 130px !important;
+ display: block !important;
+ float: none !important;
+ margin: 20 -55px 0px !important;undefined}undefined .contet-wrap section {
+ height:100px;undefined}undefined #content-wrap > div {
+ margin-bottom:50px;
+ margin-top:100px;undefined}undefined #fam1 > img {
+ margin-left: -30px !important;undefined}undefined #fam3 > img {
+ margin-left:-60px;
+ height:303px;
+ width:202px;undefined}undefined #fam4 > img {
+ margin-left:-60px;undefined}undefined #resume > div {
+ margin-top:100px;
+ margin-bottom:100px;undefined}undefined .row#resume ul li {
+ margin-top:-150px;undefined}undefined #resume > div > div:nth-child(2) > div > div.col-lg-6.col-md-6.col-sm-6.col-xs-12.timeline-left > ul > li {
+ margin-top:20 !important;undefined}undefined .timeline ul li:first-child {
+ margin-top:20px !important;undefined}undefined .timeline ul li:nth-child(2) {
+ margin-top:20px !important;undefined}undefined .timeline ul li:nth-child(3) {
+ margin-top:20px !important;undefined}undefined .timeline ul li:nth-child(4) {
+ margin-top:-20 !important;undefined}undefined .timeline ul li:last-child {
+ margin-top:-20px !important;undefined}undefined}undefined @media only screen and (min-width: 355px) and (max-width: 365px) {undefined .platform ul li .platform-image {
+ left: 60px !important;
+ margin-bottom:20px;undefined}undefined #fam1 > img {
+ float:right;
+ margin-right: 18px;
+ margin-bottom: 20px;undefined}undefined #fam3 > img {
+ float:right;
+ margin-right: -15px;
+ margin-bottom: 20px;undefined}undefined #fam4 > img {
+ float:right;
+ margin-bottom: 20px;undefined}undefined @media screen and (-webkit-min-device-pixel-ratio:0) {
+ select:focus, textarea:focus, input:focus {
+     font-size: 16px;
+     background: #eee;
+}undefined}undefined @media screen and (-webkit-min-device-pixel-ratio:0) {
+ select, textarea, input {
+     font-size: 16px;
+}undefined}undefined 
