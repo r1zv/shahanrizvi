@@ -135,7 +135,11 @@ li#platform-link a.nav-current i {
   color: #f66152;
 }
       @media only screen and (min-width: 405px) and (max-width: 414px) {
-
+        #portfolio > div > div:nth-child(2) > div > ul > li {
+           margin-bottom:50px;
+           left:10%;
+           width:80%;
+        }
      #platform > div > div:nth-child(2) > div > div > ul > li > div {
           left:85px !important;
           margin-bottom:20px;
@@ -163,6 +167,27 @@ li#platform-link a.nav-current i {
           margin-right:20px;
 
      }
-   }
+     #contact > div {
+     margin-bottom:30%;
+}
+
+#platform > div {
+
+     margin-bottom:35%;
+}
+
+#about > div {
+
+     margin-bottom:30%;
+}
+
+#resume > div {
+
+     margin-bottom:30%;
+}
+
+#content-wrap > div {
+  margin-bottom:30%;
+}
 
    

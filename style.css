@@ -80,7 +80,7 @@
      letter-spacing: 1px;
      text-align: center;
      margin: 18px 0 0 3px;
-     color: #a0a0a0;
+     color: transparent;
      animation: loading 2s infinite;
      -webkit-animation: loading 2s infinite;
 }
@@ -759,10 +759,12 @@
  .iconbox ul li:hover i:after {
      transform: rotate(135deg);
      -webkit-transform: rotate(135deg);
+
 }
  .iconbox ul li.iconbox-right:hover i:after {
      transform: rotate(-45deg);
      -webkit-transform: rotate(-45deg);
+     z-index: -999;
 }
  .about-buttons {
      display: block;
@@ -807,7 +809,7 @@
 }
 /** * ---------------------------------------------------------------------------------------- * 04. RESUME * ---------------------------------------------------------------------------------------- */
  #resume, #resume .cat-pages-title h2 {
-     background-color: #5172DD !important;
+     background-color: #3B51CE !important;
 }
  .timeline {
      display: block;
@@ -905,7 +907,7 @@
      border-color: #fff;
 }
  .timeline ul li span.changed:after {
-     background-color: #fff;
+    /* background-color: #fff;*/
 }
  .timeline-left ul li span:before {
      right: -27px;
@@ -2289,80 +2291,6 @@
      -o-transition: all .3s ease;
      transition: all .3s ease;
 }
-/* make keyframes that tell the start state and the end state of our object */
- 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
- 
-.fade-in {
- opacity:0;  /* make things invisible upon start */
- -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
- -moz-animation:fadeIn ease-in 1;
- animation:fadeIn ease-in 1;
- 
- -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
- -moz-animation-fill-mode:forwards;
- animation-fill-mode:forwards;
- 
- -webkit-animation-duration:1s;
- -moz-animation-duration:1s;
- animation-duration:1s;
-}
- 
- #donate-link > a {
-
- }
-.fade-in.one {
--webkit-animation-delay: 0.7s;
--moz-animation-delay: 0.7s;
-animation-delay: 0.7s;
-
-}
- 
-.fade-in.two {
--webkit-animation-delay: 1.2s;
--moz-animation-delay:1.2s;
-animation-delay: 1.2s;
-}
- 
-.fade-in.three {
--webkit-animation-delay: 1.6s;
--moz-animation-delay: 1.6s;
-animation-delay: 1.6s;
-}
-.fade-in.four {
--webkit-animation-delay: 1.6s;
--moz-animation-delay: 1.6s;
-animation-delay: 1.6s;
-}
-.fade-in.five {
--webkit-animation-delay: 1.6s;
--moz-animation-delay: 1.6s;
-animation-delay: 1.6s;
-}
-.fade-in.six {
--webkit-animation-delay: 1.6s;
--moz-animation-delay: 1.6s;
-animation-delay: 1.6s;
-}
-.fade-in.seven {
--webkit-animation-delay: 1.6s;
--moz-animation-delay: 1.6s;
-animation-delay: 1.6s;
-}
-.fade-in.eight {
--webkit-animation-delay: 0.4s;
--moz-animation-delay: 0.4s;
-animation-delay: 0.4s;
-} 
-.fade-in.nine {
--webkit-animation-delay: 0.6s;
--moz-animation-delay: 0.6s;
-animation-delay: 0.6s;
-}  
-/*---make a basic box ---*/
-
  
  
 
@@ -3464,6 +3392,21 @@ animation-delay: 0.6s;
      }
 }
  @media only screen and (min-width: 370px) and (max-width: 395px) {
+#contact > div {
+     margin-top:30%;
+}
+
+#platform > div {
+     margin-top:30%;
+}
+
+#about > div {
+     margin-top:30%;
+}
+
+#portfolio > div {
+     margin-top:30%;
+}
 #resume > div > div:nth-child(3) > div > div > div:nth-child(2) {
      margin-left:-25px;
 
@@ -3881,7 +3824,7 @@ animation-delay: 0.6s;
           height:100px;
      } 
           #content-wrap > div {
-          padding-top:100px;
+          margin-top:30%;
           margin-bottom:70px;
      }
      #about > div {
@@ -4019,6 +3962,22 @@ animation-delay: 0.6s;
           margin-bottom: 20px;
 
      }
+     @media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select:focus,
+  textarea:focus,
+  input:focus {
+    font-size: 16px;
+    background: #eee;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}
 
      }
 }
