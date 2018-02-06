@@ -1,168 +1,193 @@
 /**** ABOUT ****/
- li#about-link a.nav-current {
-     border-color: #f66152;
+li#about-link a.nav-current {
+  border-color: #f66152;
 }
- li#about-link a.nav-current h3, li#about-link a.nav-current i {
-     color: #f66152;
+li#about-link a.nav-current h3,
+li#about-link a.nav-current i {
+  color: #f66152;
 }
- #about, #about .cat-pages-title h2 {
-     background-color: #f66152;
+#about,
+#about .cat-pages-title h2 {
+  background-color: #f66152;
 }
- .single-about-page .menu a:hover {
-     color: #f66152;
+.single-about-page .menu a:hover {
+  color: #f66152;
 }
- .single-about-page .sidebar a:hover {
-     color: #f66152;
+.single-about-page .sidebar a:hover {
+  color: #f66152;
 }
 /**** RESUME ****/
- li#resume-link a.nav-current {
-     border-color: #3B51CE;
+li#resume-link a.nav-current {
+  border-color: #3B51CE;
 }
- li#resume-link a.nav-current h3, #resume-link a.nav-current i {
-     color: #3B51CE;
+li#resume-link a.nav-current h3,
+#resume-link a.nav-current i {
+  color: #3B51CE;
 }
- #resume, #resume .cat-pages-title h2 {
-     background-color: #3B51CE;
+#resume,
+#resume .cat-pages-title h2 {
+  background-color: #3B51CE;
 }
- .timeline h3 {
-     border-bottom-color: #3B51CE;
+.timeline h3 {
+  border-bottom-color: #3B51CE;
 }
- .timeline-left ul {
-     border-right-color: #3B51CE;
+.timeline-left ul {
+  border-right-color: #3B51CE;
 }
- .timeline ul li span:before {
-     border-color: #3B51CE;
+.timeline ul li span:before {
+  border-color: #3B51CE;
 }
- .timeline ul li span:after {
-     background-color: #3B51CE;
+.timeline ul li span:after {
+  background-color: #3B51CE;
 }
- .single-resume-page .menu a:hover {
-     color: #3B51CE;
+.single-resume-page .menu a:hover {
+  color: #3B51CE;
 }
- .single-resume-page .sidebar a:hover {
-     color: #3B51CE;
+.single-resume-page .sidebar a:hover {
+  color: #3B51CE;
 }
 /**** PORTFOLIO ****/
- li#portfolio-link a.nav-current {
-     border-color: #f66152;
+li#portfolio-link a.nav-current {
+  border-color: #f66152;
 }
- li#portfolio-link a.nav-current h3, #portfolio-link a.nav-current i {
-     color: #f66152;
+li#portfolio-link a.nav-current h3,
+#portfolio-link a.nav-current i {
+  color: #f66152;
 }
- #portfolio, #portfolio .cat-pages-title h2 {
-     background-color: #f66152;
+#portfolio,
+#portfolio .cat-pages-title h2 {
+  background-color: #f66152;
 }
- .quotes ul {
-     border-color: #a0cfee;
+.quotes ul {
+  border-color: #a0cfee;
 }
- .quotes ul:before {
-     background-color: #f66152;
+.quotes ul:before {
+  background-color: #f66152;
 }
- ol.bjqs-markers li a {
-     background-color: #a0cfee;
+ol.bjqs-markers li a {
+  background-color: #a0cfee;
 }
- ol.bjqs-markers li.active-marker {
-     border-color: #a0cfee;
+ol.bjqs-markers li.active-marker {
+  border-color: #a0cfee;
 }
- .single-portfolio-page .menu a:hover {
-     color: #f66152;
+.single-portfolio-page .menu a:hover {
+  color: #f66152;
 }
- .single-portfolio-page .sidebar a:hover {
-     color: #f66152;
+.single-portfolio-page .sidebar a:hover {
+  color: #f66152;
 }
 /**** BLOG ****/
- li#blog-link a.nav-current {
-     border-color: #2cc16b;
+li#blog-link a.nav-current {
+  border-color: #2cc16b;
 }
- li#blog-link a.nav-current h3, #blog-link a.nav-current i {
-     color: #2cc16b;
+li#blog-link a.nav-current h3,
+#blog-link a.nav-current i {
+  color: #2cc16b;
 }
- #blog, #blog .cat-pages-title h2, .blog-single-title h2 {
-     background-color: #2cc16b;
+#blog,
+#blog .cat-pages-title h2,
+.blog-single-title h2 {
+  background-color: #2cc16b;
 }
- .ajax-popup {
-     background-color: #2cc16b;
+.ajax-popup {
+  background-color: #2cc16b;
 }
- .single-blog-page .menu a:hover {
-     color: #2cc16b;
+.single-blog-page .menu a:hover {
+  color: #2cc16b;
 }
- .single-blog-page .sidebar a:hover {
-     color: #2cc16b;
+.single-blog-page .sidebar a:hover {
+  color: #2cc16b;
 }
 /**** CONTACT ****/
- li#contact-link a.nav-current {
-     border-color: #3B51CE;
+li#contact-link a.nav-current {
+  border-color: #3B51CE;
 }
- li#contact-link a.nav-current h3, #contact-link a.nav-current i {
-     color: #3B51CE;
+li#contact-link a.nav-current h3,
+#contact-link a.nav-current i {
+  color: #3B51CE;
 }
- #contact, #contact .cat-pages-title h2 {
-     background-color: #3B51CE;
+#contact,
+#contact .cat-pages-title h2 {
+  background-color: #3B51CE;
 }
- .single-contact-page .menu a:hover {
-     color: #3B51CE;
+.single-contact-page .menu a:hover {
+  color: #3B51CE;
 }
- .single-contact-page .sidebar a:hover {
-     color: #3B51CE;
+.single-contact-page .sidebar a:hover {
+  color: #3B51CE;
 }
 /**** PLATFORM ****/
- li#platform-link a.nav-current {
-     border-color: #f66152;
+li#platform-link a.nav-current {
+  border-color: #f66152;
 }
- li#platform-link a.nav-current h3, li#platform-link a.nav-current i {
-     color: #f66152;
+li#platform-link a.nav-current h3,
+li#platform-link a.nav-current i {
+  color: #f66152;
 }
- #platform, #platform .cat-pages-title h2 {
-     background-color: #f66152;
+#platform,
+#platform .cat-pages-title h2 {
+  background-color: #f66152;
 }
- .single-platform-page .menu a:hover {
-     color: #f66152;
+.single-platform-page .menu a:hover {
+  color: #f66152;
 }
- .single-platform-page .sidebar a:hover {
-     color: #f66152;
+.single-platform-page .sidebar a:hover {
+  color: #f66152;
 }
- @media only screen and (min-width: 405px) and (max-width: 414px) {
-     #portfolio > div > div:nth-child(2) > div > ul > li {
-         margin-bottom:50px;
-         left:10%;
-         width:80%;
-    }
+      @media only screen and (min-width: 405px) and (max-width: 414px) {
+        #portfolio > div > div:nth-child(2) > div > ul > li {
+           margin-bottom:50px;
+           left:10%;
+           width:80%;
+        }
      #platform > div > div:nth-child(2) > div > div > ul > li > div {
-         left:85px !important;
-         margin-bottom:20px;
-    }
+          left:85px !important;
+          margin-bottom:20px;
+     }
      #fam1 {
-         height:238.338px;
-         margin-bottom:20px;
-    }
-     #fam1 > img {
-         margin-right: 40px;
-         margin-bottom: 20px;
-         float:right;
-    }
+        height:238.338px;
+        margin-bottom:20px;
+
+     }
+          #fam1 > img {
+          margin-right: 40px;
+          margin-bottom: 20px;
+          float:right;
+     }
+
      #fam3 > img {
-         margin-right: 5px;
-         margin-bottom: 20px;
-         float:right;
-    }
+          margin-right: 5px;
+          margin-bottom: 20px;
+          float:right;
+
+     }
      #fam4 > img {
-         margin-bottom: 20px;
-         float:right;
-         margin-right:20px;
-    }
+          margin-bottom: 20px;
+          float:right;
+          margin-right:20px;
+
+     }
      #contact > div {
-         margin-bottom:30%;
-    }
-     #platform > div {
-         margin-bottom:35%;
-    }
-     #about > div {
-         margin-bottom:30%;
-    }
-     #resume > div {
-         margin-bottom:30%;
-    }
-     #content-wrap > div {
-         margin-bottom:30%;
-    }
- } 
+     margin-bottom:30%;
+}
+
+#platform > div {
+
+     margin-bottom:35%;
+}
+
+#about > div {
+
+     margin-bottom:30%;
+}
+
+#resume > div {
+
+     margin-bottom:30%;
+}
+
+#content-wrap > div {
+  margin-bottom:30%;
+}
+
+   
