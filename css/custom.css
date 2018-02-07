@@ -32,13 +32,13 @@ li#resume-link a.nav-current h3,
   border-bottom-color: #3B51CE;
 }
 .timeline-left ul {
-  border-right-color: #3B51CE;
+  border-right-color: ##8a97e3;
 }
 .timeline ul li span:before {
-  border-color: #3B51CE;
+  border-color: ##8a97e3;
 }
 .timeline ul li span:after {
-  background-color: #3B51CE;
+  background-color: ##8a97e3;
 }
 .single-resume-page .menu a:hover {
   color: #3B51CE;
@@ -118,27 +118,28 @@ li#contact-link a.nav-current h3,
 }
 /**** PLATFORM ****/
 li#platform-link a.nav-current {
-  border-color: #f66152;
+  border-color: #3B51CE;
 }
 li#platform-link a.nav-current h3,
 li#platform-link a.nav-current i {
-  color: #f66152;
+  color: #3B51CE;
 }
 #platform,
 #platform .cat-pages-title h2 {
-  background-color: #f66152;
+  background-color: #3B51CE;
 }
 .single-platform-page .menu a:hover {
-  color: #f66152;
+  color: #3B51CE;
 }
 .single-platform-page .sidebar a:hover {
-  color: #f66152;
+  color: #3B51CE;
 }
       @media only screen and (min-width: 405px) and (max-width: 414px) {
         #portfolio > div > div:nth-child(2) > div > ul > li {
            margin-bottom:50px;
            left:10%;
            width:80%;
+           
         }
      #platform > div > div:nth-child(2) > div > div > ul > li > div {
           left:85px !important;
